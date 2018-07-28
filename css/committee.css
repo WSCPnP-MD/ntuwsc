@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+
+
+ul { 
+  list-style-type: none; 
+  padding: 0px;
+}
+
+.container {
+  width: 100%;
+  padding: 20px;
+  position:relative;
+  max-width: 1200px;
+  margin: 10px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.left-column {
+  width: 20%;
+  background: #333;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.committee-menu {
+  margin: 10px;
+  line-height: 2;
+}
+
+.committee-menu li:after {
+  content: "";
+  display: block;
+  height: 1px;
+  width: 40%;
+  margin: 5px auto;
+  background: #f00;
+}
+
+.committee-box {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+
+.right-column {
+  width: 80%;
+  background: #101010;
+  margin-top: 10px;
+}
+
+.committee-menu ul li a figure img {
+  width: 90%;
+  margin-top: 10px;
+}
+
+#main-image {
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 5%;
+}
+
+
+.item {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+}
+
+.item img {
+  max-width: 125px;
+  /*height: auto;
+  border-radius: 50%;*/
+}
+
+.wrapper {
+  width: 90%;
+  height: auto;
+  overflow: hidden;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-right: 5%;
+  position: relative;
+  left: 5%;
+}
+
+.holder-info {
+  display: flex;
+  flex-direction: column;
+  margin: 10% 5%;
+
+  font-family: 'Lato', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 14px;
+}
+
+.holder-name {
+  font-family: Tahoma, Geneva, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 24px;
+}
+
+.container * {
+  color: #FFF;
+  box-sizing: border-box;
+}

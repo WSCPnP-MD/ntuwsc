@@ -1,0 +1,36 @@
+.single {
+    display: none;
+}
+
+.double {
+    display: block;
+    width: 95vw;
+    height: 100vh;
+    margin-left: 2.5vw;
+}
+
+/* Portrait for width up to 600px*/
+@media screen and (orientation:portrait) and (max-width: 600px) {
+    /* Portrait styles for width up to 600px*/
+    .single {
+        height: 100vh;
+        width: 100vw;
+        display: block;
+    }
+    .double {
+        display: none;
+    }
+}
+
+/* Landscape for height up to 600px*/
+@media screen and (orientation:landscape) and (max-height: 600px) {
+    /* Landscape styles for height up to 600px*/
+    .single {
+        display: none;
+    }
+    .double {
+        display: block;
+        height: 100vh;
+        width: 100vw;
+    }
+}
