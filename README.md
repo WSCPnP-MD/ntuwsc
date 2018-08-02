@@ -1,11 +1,11 @@
 # NTUWSC
-![StandOUT](https://raw.githubusercontent.com/tehtea/ntuwsc/master/screenshot.jpg?token=AXGKn19wZ9VQ5b2Sz2KnT4qGn-_5QPAcks5bbFiWwA%3D%3D)
+![StandOUT](https://ntuwsc.com/wp-content/uploads/2016/03/tx2logo.png)
 
 Official repository for the Stand OUT! Theme in the NTUWSC website
 This version of the website is built almost entirely using HTML, CSS and Javascript (converted into .php files for minimal dynamism and to work with wordpress).
-<br>
+<br><br>
 This means that any customisation to such pages has to be made via the template files and not the wordpress front end (Too noob to make it dynamic right now sorry!)
-<br>
+<br><br>
 However, the website proper has Elementor and the Page Builder Framework installed, so new pages can still be built using drag and drop for lower-priority pages,
 and in the event of a skills shortage amongst a future IT team.
 <br><br>
