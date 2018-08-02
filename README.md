@@ -1,6 +1,4 @@
 # NTUWSC
-![StandOUT](https://ntuwsc.com/wp-content/uploads/2016/03/tx2logo.png)
-
 Official repository for the Stand OUT! Theme in the NTUWSC website
 This version of the website is built almost entirely using HTML, CSS and Javascript (converted into .php files for minimal dynamism and to work with wordpress).
 <br><br>
