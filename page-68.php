@@ -70,9 +70,15 @@ get_header(); ?>
 								<div class="holder-info"> 
 									<figcaption class="holder-name">Jessica Lim Jiaying</figcaption>
 									<figcaption class="holder-title">President</figcaption>
+									
 									<div class="mail-icon">
-										<i class="fa fa-envelope-o" aria-hidden="true"></i>
+										<a href="mailto:wsc-president@e.ntu.edu.sg">
+											<div class="mail-link">
+												<i class="fa fa-envelope-o" aria-hidden="true"></i>
+											</div>
+										</a>
 									</div>
+									
 								</div>
 							</figure>
 							<figure class="item" id="vp1">
@@ -80,8 +86,13 @@ get_header(); ?>
 								<div class="holder-info"> 
 									<figcaption class="holder-name">Ong Jia Min Amanda</figcaption>
 									<figcaption class="holder-title">Vice President</figcaption>
+
 									<div class="mail-icon">
-										<i class="fa fa-envelope-o" aria-hidden="true"></i>
+										<a href="mailto:wsc-vicepresident1@e.ntu.edu.sg">
+											<div class="mail-link">
+												<i class="fa fa-envelope-o" aria-hidden="true"></i>
+											</div>
+										</a>
 									</div>
 								</div>
 							</figure>
@@ -91,7 +102,11 @@ get_header(); ?>
 									<figcaption class="holder-name">Ong Yun Mei</figcaption>
 									<figcaption class="holder-title">Vice President</figcaption>
 									<div class="mail-icon">
-										<i class="fa fa-envelope-o" aria-hidden="true"></i>
+										<a href="mailto:wsc-vicepresident2@e.ntu.edu.sg">
+											<div class="mail-link">
+												<i class="fa fa-envelope-o" aria-hidden="true"></i>
+											</div>
+										</a>
 									</div>
 								</div>
 							</figure>
@@ -101,7 +116,11 @@ get_header(); ?>
 									<figcaption class="holder-name">Jeline Chia Sin Ning</figcaption>
 									<figcaption class="holder-title">Honorary General Secretary</figcaption>
 									<div class="mail-icon">
-										<i class="fa fa-envelope-o" aria-hidden="true"></i>
+										<a href="mailto:wsc-hongensec@e.ntu.edu.sg">
+											<div class="mail-link">
+												<i class="fa fa-envelope-o" aria-hidden="true"></i>
+											</div>
+										</a>
 									</div>
 								</div>
 							</figure>
@@ -111,7 +130,11 @@ get_header(); ?>
 									<figcaption class="holder-name">Lim Xiao Xuan</figcaption>
 									<figcaption class="holder-title">Honorary Financial Secretary</figcaption>
 									<div class="mail-icon">
-										<i class="fa fa-envelope-o" aria-hidden="true"></i>
+										<a href="mailto:wsc-honfinsec@e.ntu.edu.sg">
+											<div class="mail-link">
+												<i class="fa fa-envelope-o" aria-hidden="true"></i>
+											</div>
+										</a>
 									</div>
 								</div>
 							</figure>
@@ -122,7 +145,11 @@ get_header(); ?>
 									<figcaption class="holder-title">Chairperson</figcaption>
 									<figcaption class="holder-portfolio">Growth and Opportunities!</figcaption>
 									<div class="mail-icon">
-										<i class="fa fa-envelope-o" aria-hidden="true"></i>
+										<a href="mailto:wsc-go@e.ntu.edu.sg">
+											<div class="mail-link">
+												<i class="fa fa-envelope-o" aria-hidden="true"></i>
+											</div>
+										</a>
 									</div>
 								</div>
 							</figure>
@@ -133,7 +160,11 @@ get_header(); ?>
 									<figcaption class="holder-title">Chairperson</figcaption>
 									<figcaption class="holder-portfolio">Internal Relations</figcaption>
 									<div class="mail-icon">
-										<i class="fa fa-envelope-o" aria-hidden="true"></i>
+										<a href="mailto:wsc-ir@e.ntu.edu.sg">
+											<div class="mail-link">
+												<i class="fa fa-envelope-o" aria-hidden="true"></i>
+											</div>
+										</a>
 									</div>
 								</div>
 							</figure>	
@@ -144,7 +175,11 @@ get_header(); ?>
 									<figcaption class="holder-title">Chairperson</figcaption>
 									<figcaption class="holder-portfolio">Publicity and Publications</figcaption>
 									<div class="mail-icon">
-										<i class="fa fa-envelope-o" aria-hidden="true"></i>
+										<a href="mailto:wsc-pnp@e.ntu.edu.sg">
+											<div class="mail-link">
+												<i class="fa fa-envelope-o" aria-hidden="true"></i>
+											</div>
+										</a>
 									</div>
 								</div>
 							</figure>
@@ -155,7 +190,11 @@ get_header(); ?>
 									<figcaption class="holder-title">Chairperson</figcaption>
 									<figcaption class="holder-portfolio">RSP (Deaf Community)</figcaption>
 									<div class="mail-icon">
-										<i class="fa fa-envelope-o" aria-hidden="true"></i>
+										<a href="mailto:wsc-rspdc@e.ntu.edu.sg">
+											<div class="mail-link">
+												<i class="fa fa-envelope-o" aria-hidden="true"></i>
+											</div>
+										</a>
 									</div>
 								</div>
 							</figure>
@@ -166,7 +205,11 @@ get_header(); ?>
 									<figcaption class="holder-title">Chairperson</figcaption>
 									<figcaption class="holder-portfolio">RSP (Elders)</figcaption>
 									<div class="mail-icon">
-										<i class="fa fa-envelope-o" aria-hidden="true"></i>
+										<a href="mailto:wsc-rspelders@e.ntu.edu.sg">
+											<div class="mail-link">
+												<i class="fa fa-envelope-o" aria-hidden="true"></i>
+											</div>
+										</a>
 									</div>
 								</div>
 							</figure>
@@ -177,7 +220,11 @@ get_header(); ?>
 									<figcaption class="holder-title">Chairperson</figcaption>
 									<figcaption class="holder-portfolio">RSP (Friends of Children)</figcaption>
 									<div class="mail-icon">
-										<i class="fa fa-envelope-o" aria-hidden="true"></i>
+										<a href="mailto:wsc-rspfoc@e.ntu.edu.sg">
+											<div class="mail-link">
+												<i class="fa fa-envelope-o" aria-hidden="true"></i>
+											</div>
+										</a>
 									</div>
 								</div>
 							</figure>
@@ -188,7 +235,11 @@ get_header(); ?>
 									<figcaption class="holder-title">Chairperson</figcaption>
 									<figcaption class="holder-portfolio">RSP (Intellectually Disabled)</figcaption>
 									<div class="mail-icon">
-										<i class="fa fa-envelope-o" aria-hidden="true"></i>
+										<a href="mailto:wsc-rspid@e.ntu.edu.sg">
+											<div class="mail-link">
+												<i class="fa fa-envelope-o" aria-hidden="true"></i>
+											</div>
+										</a>
 									</div>
 								</div>
 							</figure>
@@ -199,7 +250,11 @@ get_header(); ?>
 									<figcaption class="holder-title">Chairperson</figcaption>
 									<figcaption class="holder-portfolio">RSP (Mental Health)</figcaption>
 									<div class="mail-icon">
-										<i class="fa fa-envelope-o" aria-hidden="true"></i>
+										<a href="mailto:wsc-rspmh@e.ntu.edu.sg">
+											<div class="mail-link">
+												<i class="fa fa-envelope-o" aria-hidden="true"></i>
+											</div>
+										</a>
 									</div>
 								</div>
 							</figure>
@@ -210,7 +265,11 @@ get_header(); ?>
 									<figcaption class="holder-title">Chairperson</figcaption>
 									<figcaption class="holder-portfolio">RSP (Physically Challenged)</figcaption>
 									<div class="mail-icon">
-										<i class="fa fa-envelope-o" aria-hidden="true"></i>
+										<a href="mailto:wsc-rsppc@e.ntu.edu.sg">
+											<div class="mail-link">
+												<i class="fa fa-envelope-o" aria-hidden="true"></i>
+											</div>
+										</a>
 									</div>
 								</div>
 							</figure>
@@ -221,7 +280,11 @@ get_header(); ?>
 									<figcaption class="holder-title">Chairperson</figcaption>
 									<figcaption class="holder-portfolio">RSP (Visually Handicapped)</figcaption>
 									<div class="mail-icon">
-										<i class="fa fa-envelope-o" aria-hidden="true"></i>
+										<a href="mailto:wsc-rspvh@e.ntu.edu.sg">
+											<div class="mail-link">
+												<i class="fa fa-envelope-o" aria-hidden="true"></i>
+											</div>
+										</a>
 									</div>
 								</div>
 							</figure>
@@ -232,7 +295,11 @@ get_header(); ?>
 									<figcaption class="holder-title">Chairperson</figcaption>
 									<figcaption class="holder-portfolio">RSP (Youth)</figcaption>
 									<div class="mail-icon">
-										<i class="fa fa-envelope-o" aria-hidden="true"></i>
+										<a href="mailto:wsc-rspyouth@e.ntu.edu.sg">
+											<div class="mail-link">
+												<i class="fa fa-envelope-o" aria-hidden="true"></i>
+											</div>
+										</a>
 									</div>
 								</div>
 							</figure>
@@ -243,7 +310,11 @@ get_header(); ?>
 									<figcaption class="holder-title">Chairperson</figcaption>
 									<figcaption class="holder-portfolio">Challenge UR Limits</figcaption>
 									<div class="mail-icon">
-										<i class="fa fa-envelope-o" aria-hidden="true"></i>
+										<a href="mailto:wsc-curl@e.ntu.edu.sg">
+											<div class="mail-link">
+												<i class="fa fa-envelope-o" aria-hidden="true"></i>
+											</div>
+										</a>
 									</div>
 								</div>
 							</figure>
@@ -254,7 +325,11 @@ get_header(); ?>
 									<figcaption class="holder-title">Chairperson</figcaption>
 									<figcaption class="holder-portfolio">Camp OutReach</figcaption>
 									<div class="mail-icon">
-										<i class="fa fa-envelope-o" aria-hidden="true"></i>
+										<a href="mailto:wsc-cor@e.ntu.edu.sg">
+											<div class="mail-link">
+												<i class="fa fa-envelope-o" aria-hidden="true"></i>
+											</div>
+										</a>
 									</div>
 								</div>
 							</figure>
@@ -265,7 +340,11 @@ get_header(); ?>
 									<figcaption class="holder-title">Chairperson</figcaption>
 									<figcaption class="holder-portfolio">Ignite Change</figcaption>
 									<div class="mail-icon">
-										<i class="fa fa-envelope-o" aria-hidden="true"></i>
+										<a href="mailto:wsc-igc@e.ntu.edu.sg">
+											<div class="mail-link">
+												<i class="fa fa-envelope-o" aria-hidden="true"></i>
+											</div>
+										</a>
 									</div>
 								</div>
 							</figure>
@@ -276,7 +355,11 @@ get_header(); ?>
 									<figcaption class="holder-title">Chairperson</figcaption>
 									<figcaption class="holder-portfolio">Operation Hope</figcaption>
 									<div class="mail-icon">
-										<i class="fa fa-envelope-o" aria-hidden="true"></i>
+										<a href="mailto:wsc-oh@e.ntu.edu.sg">
+											<div class="mail-link">
+												<i class="fa fa-envelope-o" aria-hidden="true"></i>
+											</div>
+										</a>
 									</div>
 								</div>
 							</figure>
@@ -287,7 +370,11 @@ get_header(); ?>
 									<figcaption class="holder-title">Chairperson</figcaption>
 									<figcaption class="holder-portfolio">Overseas Volunteering Expedition</figcaption>
 									<div class="mail-icon">
-										<i class="fa fa-envelope-o" aria-hidden="true"></i>
+										<a href="mailto:wsc-ove@e.ntu.edu.sg">
+											<div class="mail-link">
+												<i class="fa fa-envelope-o" aria-hidden="true"></i>
+											</div>
+										</a>
 									</div>
 								</div>
 							</figure>
@@ -298,7 +385,11 @@ get_header(); ?>
 									<figcaption class="holder-title">Chairperson</figcaption>
 									<figcaption class="holder-portfolio">Volunteer Management</figcaption>
 									<div class="mail-icon">
-										<i class="fa fa-envelope-o" aria-hidden="true"></i>
+										<a href="mailto:wsc-vm@e.ntu.edu.sg">
+											<div class="mail-link">
+												<i class="fa fa-envelope-o" aria-hidden="true"></i>
+											</div>
+										</a>
 									</div>
 								</div>
 							</figure>
