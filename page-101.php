@@ -32,7 +32,7 @@ get_header(); ?>
 					<p>
 						Established in 2002, RSP (Visually Handicapped) seeks to reach out to the Visually Handicapped community through our collaboration with the Singapore Association of the Visually Handicapped (SAVH). We focus on giving aid and befriending Visually Handicapped beneficiaries of all ages and motivating them to excel in their pursuits. We provide tuition services and conversational language classes for our beneficiaries from all walks of life, during our regular sessions, to empower and instill confidence in them. We also hope to create lasting and wonderful memories with them, through special events such as Eye Am Aware, as well as celebrations.
 						<br><br>
-						For more information, visit our official Facebook page!
+						For more information, <a href="https://www.facebook.com/WSC.RSPVH/">visit our official Facebook page!</a>
 					</p>
 				</div>
 			</div>
@@ -55,7 +55,7 @@ get_header(); ?>
 
 RSP (PC) hosts weekly sessions that alternate between the Singapore Cheshire Home and Friends of the Disabled Society (FDS). We hope to empower our physically challenged beneficiaries and assist their integration into society, as well as increase the public's understanding towards the physically challenged community in Singapore, through our activities and outings.
 <br><br>
-For more information, visit our official Facebook Page!
+For more information, <a href="https://www.facebook.com/NTUWSC.RSPPC/">visit our official Facebook page!</a>
 					</p>
 				</div>
 			</div>
@@ -80,7 +80,7 @@ We hope that these interactions will help the beneficiaries to feel closer and r
 Apart from weekly sessions at IMH every Saturday, which comprise of activities such as handicraft making and games, are held every Saturday, from 3pm to 5pm, at the Institute of Mental Health (IMH). The session comprises of befriending, handicrafts making, games and event celebrations such as Chinese New Year and Christmas Day.
 
 						<br><br>
-						For more information, visit our official Facebook page!
+						For more information, <a href="https://www.facebook.com/ntuwscrspmh/">visit our official Facebook page!</a>
 					</p>
 				</div>
 			</div>
@@ -98,9 +98,9 @@ Apart from weekly sessions at IMH every Saturday, which comprise of activities s
 				</div>
 				<div class="right-box">
 					<p>
-Established in 1985, Regular Service Project for the Intellectually Disabled (RSPID) was the first RSP of NTU Welfare Services Club. We aim to impart useful social skills and ethics to beneficiaries, and expose them to the ever-changing environment, through the enriching programmes and outings we organise. Ultimately, we hope to help our beneficiaries integrate into society, gain employment, and feel a stronger sense of belonging to the society.						<br><br>
+Established in 1985, Regular Service Project for the Intellectually Disabled (RSPID) was the first RSP of NTU Welfare Services Club. We aim to impart useful social skills and ethics to beneficiaries, and expose them to the ever-changing environment, through the enriching programmes and outings we organise. Ultimately, we hope to help our beneficiaries integrate into society, gain employment, and feel a stronger sense of belonging to the society.					
 						<br><br>
-For more information, visit our official Facebook page!
+For more information, <a href="https://www.facebook.com/ntuwsc.rspid/">visit our official Facebook page!</a>
 					</p>
 				</div>
 			</div>
@@ -124,7 +124,7 @@ For more information, visit our official Facebook page!
 					<p>
 					Established in July 1991, RSP (Deaf Community) has been actively working towards raising awareness about the Deaf community and connecting with them. We hope to empower the Deaf community through regular activities such as sports and arts. We also provide weekly tuition services for children with hearing loss and for children of deaf adults (CODA). In addition to our regular sessions, we organise annual public events, such as Hi!Singapore and Christmas Song Sign, which aim to bring about greater appreciation and understanding of the Deaf community in society. Above all, we hope to connect with those we serve and to bridge the gap between them and the society at large.
 						<br><br>
-						For more information, visit our official Facebook page!
+						For more information, <a href="https://www.facebook.com/ntuwscrspdc/">visit our official Facebook page!</a>
 					</p>
 				</div>
 			</div>
@@ -149,10 +149,10 @@ For more information, visit our official Facebook page!
 				<div class="right-box">
 					<p>
 					RSP (Youth) was set up in 1996 to provide an avenue for undergraduates in NTU to befriend and help youth-at-risk and underprivileged youth, by collaborating with various service organisations (Ministry of Social and Family Development, Singapore Girls’ Home, etc.) to engage and inspire teenagers to be better people. RSP (Youth) also helps spur underprivileged youth via academic support and other activities.
-<br>
+<br><br>
 The objective of RSP (Youth) is to be "A Friend, A Mentor, A Teacher" to the youths we interact with by giving them support.
-						<br>
-						For more information, visit our official Facebook page!
+						<br><br>
+						For more information, <a href="https://www.facebook.com/ntuwscrspyouth/">visit our official Facebook page!</a>
 					</p>
 				</div>
 			</div>
@@ -178,7 +178,7 @@ The objective of RSP (Youth) is to be "A Friend, A Mentor, A Teacher" to the you
 					<p>
 					"Friends of Children" (FoC) is a Regular Service Project which had started off as a special project under Elders in 2002, before branching out as a separate Regular Service Project in 2006. We mainly provide free academic coaching, mentoring and life-skills teaching to children from low-income families on a weekly basis. Apart from the weekly mentoring, our portfolio also organises events, whereby we may impart life skills to our beneficiaries. We organise two main events annually– namely the December and June Events– to encourage interaction between all the beneficiaries and volunteers from all centres.
 						<br><br>
-						For more information, visit our official Facebook page!
+						For more information, visit our <a href="http://wscrspfoc.weebly.com/">official website</a> & <a href="https://www.facebook.com/NtuWscRSPFriendsOfChildren/">Facebook page!</a>
 					</p>
 				</div>
 			</div>
@@ -202,9 +202,11 @@ The objective of RSP (Youth) is to be "A Friend, A Mentor, A Teacher" to the you
 				</div>
 				<div class="right-box">
 					<p>
-					RSP (Elders) was set up in July 1992, to meet the increasing demand for volunteers to interact with the senior citizens in our society. RSP (Elders) volunteers are a constant source of care and companionship for the elderly beneficiaries on a long-term basis. We actively seek to understand the biopsychosocial needs of the elderly, and aim to alleviate their loneliness and boredom by befriending and organising activities for them. Regular sessions are conducted every Saturday at our centres located at Ang Mo Kio (AWWA Home), Novena (Ren Ci Community Hospital), and Sembawang (SWAMI Home). Help us in bridging the generation gap between the young and the old, and make society one in which the elderly feel they are a part of.
+					RSP (Elders) was set up in July 1992, to meet the increasing demand for volunteers to interact with the senior citizens in our society. RSP (Elders) volunteers are a constant source of care and companionship for the elderly beneficiaries on a long-term basis. We actively seek to understand the biopsychosocial needs of the elderly, and aim to alleviate their loneliness and boredom by befriending and organising activities for them. Regular sessions are conducted every Saturday at our centres located at Ang Mo Kio (AWWA Home), Novena (Ren Ci Community Hospital), and Sembawang (SWAMI Home). 
+					<br><br>
+					Help us in bridging the generation gap between the young and the old, and make society one in which the elderly feel they are a part of.
 						<br><br>
-						For more information, visit our official Facebook page!
+						For more information, <a href="http://ntuwscrspelders.wix.com/blog"> visit our official website </a> & <a href="https://www.facebook.com/NTUWSCRSPElders/">our official Facebook page!</a>
 					</p>
 				</div>
 			</div>
@@ -229,18 +231,19 @@ The objective of RSP (Youth) is to be "A Friend, A Mentor, A Teacher" to the you
 
 Our key objectives of this portfolio are to:
 
-​
-
+​<br>
+<br>
 (1) reach out and connect with children and youths suffering from chronic and potentially life-threatening diseases and
-
+<br>
 (2) raise awareness of the plight of the beneficiaries.
-
+<br>
+<br>
  
 
 From a portfolio which focuses on conducting one-off events for the beneficiaries, OH decided to rebrand and transit into an RSP in 2017, in order to make greater and longer-lasting impacts in the beneficiaries’ lives.
 RSP (OH) currently works with various organisations to engage their volunteers in fun and meaningful activities during weekly volunteering sessions. We also hold annual events, which involves outdoor engagement or performance for the beneficiaries to enjoy a day-off outside of the designated centres.
 						<br><br>
-						For more information, visit our official Facebook page!
+						For more information, <a href="https://www.facebook.com/NTUOperationHope/">visit our official Facebook page!</a>
 					</p>
 				</div>
 			</div>
