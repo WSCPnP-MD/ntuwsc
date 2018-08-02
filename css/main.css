@@ -1,0 +1,334 @@
+/* Imported fonts */
+@font-face {
+    font-family: bebasNeue;
+    src: url(../assets/fonts/bebas-neue-regular.ttf);
+}
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+.elementor-39 .elementor-element.elementor-element-543826c .elementor-widget-container {
+    border: 2px solid black;
+    padding: 20px;
+    height: 500px;
+    overflow-y: scroll;
+}
+
+.elementor-39 .elementor-element.elementor-element-543826c .elementor-widget-container h3{
+    text-align: center;
+    color: #FFF;
+
+}
+
+.elementor embed, .elementor iframe, .elementor object, .elementor video {
+    width: 380px;
+    height: 500px;
+    position: relative;
+    left: calc((100% - 380px) / 2);
+}
+
+#main {
+    background-color: #0f0f0f;
+}
+
+#main h1 {
+    color: #fff;
+    text-align: center;
+    padding-top: calc(20px + 1vw);
+    font-family: bebasNeue;
+    letter-spacing: 6px;
+    font-size: calc(30px + 2vw);
+}
+
+#main h1:after {
+    content: ' ';
+    display: block;
+    border: 2px solid rgb(3, 254, 1);
+    width: 50px;
+    position: relative;
+    left: calc((100vw - (100vw - 100%)) / 2 - 28px);
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.grid {
+    display: flex;
+    min-height: 500px;
+    flex-wrap: wrap;
+}
+
+.grid img {
+    min-width: 250px;
+}
+
+.description {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: justify;
+    color: #fff;
+    font-size: calc(15px + 0.5vw);
+    
+    font-family: 'Open Sans', sans-serif;
+}
+
+.description-background {
+    background-color: #111;
+}
+
+.media-background {
+    background-color: #fafafa;
+    background-position: top left;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.8) 100%), url(../assets/img/home/camera.jpg);
+}
+
+.media {
+    display: flex;
+    flex-direction: row;
+}
+
+.facebook, .instagram {
+    width: 50%;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    font-size: calc(30px + 1vw);
+    color: #0f0f0f;
+}
+
+.facebook iframe {
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.icon {
+    width: calc((30px + 1vw)*1.67);
+    border-radius: 50%;
+    margin: 0 auto;
+    background: #fff;
+}
+
+@media only screen and (min-width: 1000px) {
+    .grid img {
+        width: calc((100vw - (100vw - 100%)) / 4 );
+        height: calc((100vw - (100vw - 100%)) / 4 );
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .grid img {
+        width: calc((100vw - (100vw - 100%)) / 3 );
+        height: calc((100vw - (100vw - 100%)) / 3 );
+    }
+    .grid img:nth-last-of-type(1), .grid img:nth-last-of-type(2) {
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 750px) {
+    .grid img {
+        width: calc((100vw - (100vw - 100%)) / 2 );
+        height: calc((100vw - (100vw - 100%)) / 2 );
+    }
+    .grid img:nth-last-of-type(3), .grid img:nth-last-of-type(4) {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .grid img {
+        width: calc(100vw - (100vw - 100%));
+        height: calc(100vw - (100vw - 100%));
+    }
+    .grid img:nth-last-of-type(5), .grid img:nth-last-of-type(6) {
+        display: none;
+    }
+}
+
+/* Overrule global css rule for hiding the pre-header */
+#wpbf-pre-header {
+    display: block;
+}
+
+/* Credits to https://codepen.io/GhostRider/pen/GHaFw */
+
+.elementor-39 .elementor-element.elementor-element-543826c .elementor-widget-container::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: #F5F5F5;
+}
+
+.elementor-39 .elementor-element.elementor-element-543826c .elementor-widget-container::-webkit-scrollbar {
+    width: 6px;
+    background-color: #F5F5F5;
+
+}
+
+.elementor-39 .elementor-element.elementor-element-543826c .elementor-widget-container::-webkit-scrollbar-thumb
+{
+    background-color: #000000;
+    border-radius: 20px;
+}
+
+
+/* Fancy button. Credits to https://codepen.io/canvasplay/pen/WXWobd */
+
+@import url("https://fonts.googleapis.com/css?family=Work+Sans:400,700,900");
+body {
+  font-family: 'Work Sans', sans-serif;
+  background: #111;
+  text-align: center;
+}
+
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.button {
+  touch-callout: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  display: inline-block;
+  border: .2em solid;
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+  opacity: 0.6;
+  color: #FFF;
+  margin-bottom: 20px;
+}
+.button__text {
+  display: block;
+  padding: 1em 2em;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.button__text:before {
+  content: attr(title);
+}
+.button__text--bis {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  -webkit-transform: translateX(-1em);
+          transform: translateX(-1em);
+  opacity: 0;
+}
+.button__mask {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: white;
+  -webkit-transform: translateX(-100%) rotate(45deg);
+          transform: translateX(-100%) rotate(45deg);
+  transition: all 0.3s;
+}
+
+.button:hover {
+  opacity: 1;
+}
+.button:hover .button__text {
+  -webkit-animation: fx-text .3s ease-out;
+          animation: fx-text .3s ease-out;
+}
+.button:hover .button__text--bis {
+  -webkit-animation: fx-text-bis .3s ease-out;
+          animation: fx-text-bis .3s ease-out;
+}
+.button:hover .button__mask {
+  -webkit-animation: fx-mask .3s ease-out;
+          animation: fx-mask .3s ease-out;
+}
+
+.button:active {
+  opacity: 1;
+  background: white;
+  color: inherit;
+}
+
+@-webkit-keyframes fx-mask {
+  0% {
+    -webkit-transform: translateX(-100%) rotate(45deg);
+            transform: translateX(-100%) rotate(45deg);
+  }
+  100% {
+    -webkit-transform: translateX(100%) rotate(45deg);
+            transform: translateX(100%) rotate(45deg);
+  }
+}
+
+@keyframes fx-mask {
+  0% {
+    -webkit-transform: translateX(-100%) rotate(45deg);
+            transform: translateX(-100%) rotate(45deg);
+  }
+  100% {
+    -webkit-transform: translateX(100%) rotate(45deg);
+            transform: translateX(100%) rotate(45deg);
+  }
+}
+@-webkit-keyframes fx-text {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: translateX(1em);
+            transform: translateX(1em);
+    opacity: 0;
+  }
+}
+@keyframes fx-text {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: translateX(1em);
+            transform: translateX(1em);
+    opacity: 0;
+  }
+}
+@-webkit-keyframes fx-text-bis {
+  0% {
+    -webkit-transform: translateX(-1em);
+            transform: translateX(-1em);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes fx-text-bis {
+  0% {
+    -webkit-transform: translateX(-1em);
+            transform: translateX(-1em);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1;
+  }
+}

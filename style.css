@@ -11,3 +11,12 @@ Text Domain:   page-builder-framework-child
 */
 
 /* Most of the actual stylesheets will be found in the ./css folder. This file is merely used to allow Wordpress to register this theme in their system.*/
+
+/* Except for this rule to hide the pre-header (will be overriden at the home page's css) */
+#wpbf-pre-header {
+    display: none;
+}
+
+.sub-menu {
+    text-align: left;
+}
