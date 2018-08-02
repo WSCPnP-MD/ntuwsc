@@ -1,4 +1,6 @@
 # NTUWSC
+![StandOUT](https://raw.githubusercontent.com/tehtea/ntuwsc/master/screenshot.jpg?token=AXGKn19wZ9VQ5b2Sz2KnT4qGn-_5QPAcks5bbFiWwA%3D%3D)
+
 Official repository for the Stand OUT! Theme in the NTUWSC website
 This version of the website is built almost entirely using HTML, CSS and Javascript (converted into .php files for minimal dynamism and to work with wordpress).
 <br>
