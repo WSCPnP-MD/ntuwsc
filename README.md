@@ -1,5 +1,6 @@
 # NTUWSC
-Official repository for the Stand OUT! Theme in the NTUWSC website
+Official repository for the Stand OUT! Theme in the NTUWSC website.
+<br><br>
 This version of the website is built almost entirely using HTML, CSS and Javascript (converted into .php files for minimal dynamism and to work with wordpress).
 <br><br>
 This means that any customisation to such pages has to be made via the template files and not the wordpress front end (Too noob to make it dynamic right now sorry!)
