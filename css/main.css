@@ -138,6 +138,15 @@
     .grid img:nth-last-of-type(3), .grid img:nth-last-of-type(4) {
         display: none;
     }
+    .media {
+        display: flex;
+        flex-direction: column;
+    }
+    .facebook, .instagram {
+        width: 100%;
+        padding: 20px;
+        display: flex;
+    }
 }
 
 @media only screen and (max-width: 500px) {
@@ -174,6 +183,9 @@
     border-radius: 20px;
 }
 
+#sb_instagram .sb_instagram_header h3.sbi_no_bio {
+    color: #fff !important;
+}
 
 /* Fancy button. Credits to https://codepen.io/canvasplay/pen/WXWobd */
 

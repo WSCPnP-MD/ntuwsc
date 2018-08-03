@@ -41,3 +41,25 @@ The page with the id of 14 will use about-us.css as the stylesheet and about-us.
 
 1. wp_enqueue_styles and wp_enqueue_scripts in functions.php will use time() as the version number argument to disable style / script caching
 (which is a burden during development because you won't be able to see the changes you make even after refreshing the page)
+
+
+## How to convert static files into a wordpress page template 
+
+1. Log into the wordpress admin to look for the page that you are looking to place the template on.
+2. From that page's url, get it's page-id (e.g. from `https://clubs.ntu.edu.sg/ntuwsc/wp-admin/post.php?post=19&action=edit` you can see that the page in question has the page-id of 19)
+3. Go to the StandOUT folder, and create a new blank template file with the page-id trailing it. (Based off the above example, you will create a template file with the name: `page-19.php`)
+4. Copy and paste the contents of `page.php` in the StandOUT folder inside your new template file.
+5. Delete everything between the lines `get_header(); ?>` and `<?php get_footer(); ?>` inside your new template file.
+5. Then, open up your original HTML file, and paste everything between the `<body>` tag into the blank space you created between  `get_header(); ?>` and `<?php get_footer(); ?>`
+6. To link the CSS and JS files which were originally linked in the `head` of your original HTML file, go to functions.php and add something like this within the function `wpbf_child_scripts()`:
+```php
+	if ( is_page( 19 ) ) {
+		wp_enqueue_style( 'wsc-<page-name>-style', WPBF_CHILD_THEME_URI . '/css/<page-name>.css', array(), time());
+		wp_enqueue_script( 'wsc-<page-name>-script', WPBF_CHILD_THEME_URI . '/js/<page-name>.js', array(), time());
+	}
+	else {
+		wp_dequeue_style( 'wsc-<page-name>-style');
+                         wp_dequeue_script('wsc-<page-name>-script');
+	}
+```
+7. Voila! Make sure to put all dependencies in their respective folders. By convention, Images will go to the `assets/img/` folder,  while CSS and JS files will go to the `/css` and `/js` folders respectively. You may notice that the `/assets` folder has the `./css` and `./js` folders too, but by convention in external projects, they are used to place external dependencies such as `bootstrap` or `fontawesome` or `owlCarousel`.

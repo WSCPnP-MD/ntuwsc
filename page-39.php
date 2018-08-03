@@ -39,7 +39,7 @@ get_header(); ?>
                 <h1>WHO WE ARE</h1>
                 <div class="description">
                     <p>
-                        The NTU Welfare Services Club is one of the largest student clubs in NTU. Founded in 1985, it currently consists of 9 Regular Service Projects, 5 Special Projects and 4 Supporting Committees. 
+                        The NTU Welfare Services Club is one of the largest non-academic constituent clubs in NTU. Founded in 1985, it currently consists of 9 Regular Service Projects, 5 Special Projects and 4 Supporting Committees. 
                     </p>
                 </div>
                 <a href="./about-us">
@@ -56,12 +56,14 @@ get_header(); ?>
                         <div class="icon">
                             <i class="fa fa-facebook" aria-hidden="true"></i>
                         </div>
-                        <div id="fb-frame" class="fb-page" data-href="https://www.facebook.com/ntuwsc/" data-tabs="timeline" data-width="500" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/ntuwsc/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/ntuwsc/">NTU Welfare Services Club</a></blockquote></div>
+                        <!--<div id="fb-frame" class="fb-page" data-href="https://www.facebook.com/ntuwsc/" data-tabs="timeline" data-width="500" data-height="950px" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/ntuwsc/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/ntuwsc/">NTU Welfare Services Club</a></blockquote></div>-->
+                        <iframe id="fb-frame" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fntuwsc%2F&tabs=timeline&width=500&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="500" height="950" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
                     </div>
                     <div class="instagram">
                         <div class="icon">
                             <i class="fa fa-instagram" aria-hidden="true"></i>
                         </div>
+                        <?php echo do_shortcode('[instagram-feed]'); ?>
                     </div>
                 </div>
             </div>

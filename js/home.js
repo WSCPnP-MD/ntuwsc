@@ -2,25 +2,47 @@
 
     var containerWidth = Math.round($(window).width() / 2 - 100);
 
-	$(document).ready(function () {   
-        resize();
+
+	$(document).ready(function () {
+        setTimeout(function() {
+            var containerHeight = $("#sb_instagram").height();
+            resizeFb(containerWidth, containerHeight);
+        }, 5000);
+        
     });
 
     $( window ).resize(function() {
-        containerWidth = Math.round($(window).width() / 2 - 100);
-        resize();
-        //$("#fb-frame").load(location.href + " #fb-frame"); // Add space between URL and selector.
-        //location.reload();
+        if ($(window).width() > 750) {
+            containerWidth = Math.round($(window).width() / 2 - 100);
+        } else {
+            containerWidth = Math.round($(window).width() - 40);
+        }
+        
+        var containerHeight = $("#sb_instagram").height();
+        resizeFb(containerWidth, containerHeight);
     });
     
-    function resize() {
-        if (containerWidth < 500) {
-            console.log("resizing...");
-            $(".fb-page").attr("data-width", containerWidth);
-        }
+    function resizeFb(containerWidth, containerHeight) {
+        var url = "https://www.facebook.com/plugins/page.php" +
+        "?href=https%3A%2F%2Fwww.facebook.com%2Fntuwsc%2F" +
+        "&tabs=timeline" +
+        "&width=" + containerWidth +
+        "&height=" + containerHeight +
+        "&small_header=false" +
+        "&adapt_container_width=true" +
+        "&hide_cover=false" +
+        "&show_facepile=true" +
+        "&appId";
+        $("#fb-frame").attr("src", url);
+        //$(".fb-page").attr("data-width", containerWidth);
+        //$(".fb-page").attr("data-height", containerHeight);
+        $("#fb-frame").load(window.location.href + " #fb-frame", function( response, status, xhr ) {
+            console.log("reload done~");
+            if ( status == "error" ) {
+                var msg = "Sorry but there was an error: ";
+                console.log( msg + xhr.status + " " + xhr.statusText );
+              }
+        }); // Add space between URL and selector.
     }
-
-    //Listen for changes in viewport size and resize accordingly.
-    //Remember to change containerWidth and src.
 
 })( jQuery );
