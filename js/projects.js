@@ -1,4 +1,4 @@
 
 (function($) {
-	console.log("Yay! This works!");
+	/*nth at the moment*/
 })( jQuery );

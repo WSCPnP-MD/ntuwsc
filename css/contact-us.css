@@ -1,0 +1,117 @@
+body {
+	margin: 0;
+	padding:0;
+	height: 100%;
+}
+
+.container {
+	font-family: "Courier New";
+	text-align: center;
+	background-image: linear-gradient(rgba(255,255,255,0.2), rgba(255,255,255,0.3)),url("../assets/img/contact-us-bg.jpg");
+	width:80%;
+	margin: auto;
+}
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.column-2 {
+	float: left;
+    width: 50%;
+	text-align: center;
+	margin: auto;
+}
+
+#map {
+	margin: auto;
+	margin: 30px;
+}
+
+.map{
+	width: 400px;
+	height: 400px;
+}
+
+.title-contact {
+		color: #3672A4;
+		font-size: 35px;
+		font-weight: bold;
+		padding-top: 20px;
+}
+
+.title2 {
+	text-align: center;
+	font-size: 25px;
+	color: navy;
+}
+.fa-instagram, .fa-facebook, .fa-envelope {
+	text-align: center;
+	text-decoration: none;
+	padding: 0px 0px 0px 10px;
+}
+
+.fa-instagram:hover, .fa-facebook:hover, .fa-envelope:hover {
+	opacity: 0.7;
+	transform: rotate(15deg);
+}
+
+.fa-instagram {
+	color: #8134AF;
+}
+
+.fa-facebook {
+	color: #3B5998;
+}
+
+.fa-envelope {
+	color: black;
+}
+
+.divider {
+	border-right: 2px gray solid;
+	font-size: 35px;
+}
+
+.divider-w {
+	border-right: 2px solid white;
+	width:49%;
+	margin: 20px 0px 20px 0px;
+}
+
+.h-divider {
+	border-bottom: 2px gray solid;
+	margin: 0px 10px 0px 10px;
+}
+
+.text-contact {
+	text-align: left;
+	padding: 5px 15px;
+	font-size: 25px;
+	color: black;
+}
+
+a {
+	color: #000;
+}
+
+@media only screen and (max-width: 600px) {
+	.column-2 {
+		width: 100%;
+	}
+	.container {
+		width: 100%;
+	}
+	.map{
+		width: 300px;
+		height: 300px;
+	}
+	.divider-w {
+		width: 100%;
+		border-right: none;
+	}
+}
+
+

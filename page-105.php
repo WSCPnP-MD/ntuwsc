@@ -57,7 +57,7 @@ For more information, <a href="https://ignitechange-camp.weebly.com/">visit our 
 			</div>
 			<div class="row">
 				<div class="left-box">
-					<div class="name">Challenge UR Limits</div>
+					<div class="name">Challengeur Limits</div>
 					<div class="logo">
 						<img src="../wp-content/themes/stand-out/assets/img/sp-logos/curl.jpg">
 					</div>

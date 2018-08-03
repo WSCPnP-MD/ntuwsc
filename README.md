@@ -42,6 +42,7 @@ The page with the id of 14 will use about-us.css as the stylesheet and about-us.
 
 1. wp_enqueue_styles and wp_enqueue_scripts in functions.php will use time() as the version number argument to disable style / script caching
 (which is a burden during development because you won't be able to see the changes you make even after refreshing the page)
+2. I disabled the hyperlink at the About Us menu item via site-child.js in the /js folder.
 
 
 ## How to convert static files into a wordpress page template 

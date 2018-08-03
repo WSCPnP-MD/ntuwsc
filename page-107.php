@@ -62,7 +62,7 @@ Active liaising with all portfolios and the Finance Office, our role is paramoun
 			</div>
 			<div class="row">
 				<div class="left-box">
-					<div class="name">Growth & Opportunities</div>
+					<div class="name">Growth & Opportunities!</div>
 					<div class="logo">
 						<img src="../wp-content/themes/stand-out/assets/img/sc-logos/go.png">
 					</div>
