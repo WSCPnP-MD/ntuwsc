@@ -64,3 +64,4 @@ The page with the id of 14 will use about-us.css as the stylesheet and about-us.
 	}
 ```
 7. Voila! Make sure to put all dependencies in their respective folders. By convention, Images will go to the `assets/img/` folder,  while CSS and JS files will go to the `/css` and `/js` folders respectively. You may notice that the `/assets` folder has the `./css` and `./js` folders too, but by convention in external projects, they are used to place external dependencies such as `bootstrap` or `fontawesome` or `owlCarousel`.
+8. Oh. Remember to update the mapping above if you create a new template.
