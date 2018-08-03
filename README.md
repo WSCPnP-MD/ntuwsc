@@ -13,6 +13,7 @@ Please refer to the mapping below for the template to each page:
 - page-14.php: about-us
 - page-15.php: projects
 - page-16.php: newsletters
+- page-19.php: contact-us
 - page-39.php: homepage
 - page-68.php: main-committee
 - page-75.php: meeting-minutes
