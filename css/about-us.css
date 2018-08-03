@@ -27,6 +27,7 @@ a {
   color: black;
   font-size: calc(12px + 0.5vw);
   font-family: 'Open Sans', sans-serif;
+  margin-top: 20px;
 }
 
 .history p {
@@ -47,7 +48,7 @@ li {
 }
 
 .history h2 {
-  padding-top: 30px;
+  padding-top: 50px;
   color: black;
   font-family: 'Cedarville Cursive', cursive;
   font-size: calc(18px + 1vw);
