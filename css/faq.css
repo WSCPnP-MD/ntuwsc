@@ -1,3 +1,16 @@
 .elementor-widget-wrap a {
     color: #3ba9d2 !important;
 }
+
+.elementor-17 .elementor-element.elementor-element-37eb .elementor-toggle .elementor-tab-title {
+    padding: 0px;
+}
+
+.elementor-17 .elementor-element.elementor-element-37eb .elementor-toggle .elementor-tab-content {
+    padding: 15px 0px 15px 0px;
+    
+}
+
+.elementor-17 .elementor-element.elementor-element-37eb .elementor-toggle .elementor-tab-content li {
+    margin: 10px 0;
+}

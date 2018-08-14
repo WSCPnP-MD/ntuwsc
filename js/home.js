@@ -1,5 +1,5 @@
 (function($) {
-
+    /*
     var containerWidth = Math.round($(window).width() / 2 - 100);
 
 
@@ -44,5 +44,5 @@
               }
         }); // Add space between URL and selector.
     }
-
+    */
 })( jQuery );

@@ -17,6 +17,15 @@ Text Domain:   page-builder-framework-child
     display: none;
 }
 
+.wpbf-mobile-menu {
+    text-align: left;
+}
+
 .sub-menu {
     text-align: left;
 }
+
+.sub-menu a {
+    padding: 10px 50px;
+}
+
