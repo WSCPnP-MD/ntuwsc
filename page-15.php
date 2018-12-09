@@ -10,11 +10,40 @@ if ( ! defined( 'ABSPATH' ) ) exit;
 
 get_header(); ?>
 
-<embed src="https://ntuwsc.com/no-access/" style="width:100%;">
-<!--
-<iframe src="https://ntuwsc.com/no-access/" width="" height="1200px">
-  <p>Your browser does not support iframes.</p>
-</iframe> -->
-
+    <div class="container">
+        <button id="getRSP">RSPs</button>
+        <button id="getSP">SPs</button>
+        <button id="getSC">SCs</button>
+        <button id="getAll">All</button>
+        <div class="grid">
+            <div class="box RSP">
+                <div class="box__right">Right → Left</div>
+                <div class="box__left">Left → Right</div>
+                <div class="box__top">Top → Bottom</div>
+                <div class="box__bottom">Bottom → Top</div>
+                <div class="box__center">
+                    DC
+                </div>
+            </div>
+            <div class="box SP">
+                <div class="box__right">Right → Left</div>
+                <div class="box__left">Left → Right</div>
+                <div class="box__top">Top → Bottom</div>
+                <div class="box__bottom">Bottom → Top</div>
+                <div class="box__center">
+                    VM
+                </div>
+            </div>
+            <div class="box SC">
+                <div class="box__right">Right → Left</div>
+                <div class="box__left">Left → Right</div>
+                <div class="box__top">Top → Bottom</div>
+                <div class="box__bottom">Bottom → Top</div>
+                <div class="box__center">
+                    PnP
+                </div>
+            </div>
+        </div>
+    </div>
 	    
 <?php get_footer(); ?>
