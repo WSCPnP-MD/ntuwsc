@@ -22,7 +22,7 @@ get_header(); ?>
                 <div class="box__top">Top → Bottom</div>
                 <div class="box__bottom">Bottom → Top</div>
                 <div class="box__center">
-                    DC
+                  <img src="../wp-content/themes/stand-out/assets/img/rsp-logos/vh.jpg">
                 </div>
             </div>
             <div class="box SP">
@@ -31,7 +31,7 @@ get_header(); ?>
                 <div class="box__top">Top → Bottom</div>
                 <div class="box__bottom">Bottom → Top</div>
                 <div class="box__center">
-                    VM
+                  <img src="../wp-content/themes/stand-out/assets/img/sp-logos/igc.jpg">
                 </div>
             </div>
             <div class="box SC">
@@ -40,7 +40,7 @@ get_header(); ?>
                 <div class="box__top">Top → Bottom</div>
                 <div class="box__bottom">Bottom → Top</div>
                 <div class="box__center">
-                    PnP
+                  <img src="../wp-content/themes/stand-out/assets/img/sc-logos/pnp.jpg">
                 </div>
             </div>
         </div>
