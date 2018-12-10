@@ -21,7 +21,14 @@
 
 		$('#getAll').click(function() {
 			$grid.isotope({ filter: '*' });
-		});    
+		});
+		$(".box").children().each(function( key, value ) {
+			$(this).click(function() {
+				$('html, body').animate({
+					scrollTop: $("#info-box").offset().top
+				}, 1000);
+			});
+		});
 	});
 
 })( jQuery );
