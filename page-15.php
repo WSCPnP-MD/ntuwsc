@@ -15,34 +15,206 @@ get_header(); ?>
         <button id="getSP">SPs</button>
         <button id="getSC">SCs</button>
         <button id="getAll">All</button>
+        <p> test </p>
         <div class="grid">
-            <div class="box RSP">
-                <div class="box__right">Right → Left</div>
-                <div class="box__left">Left → Right</div>
-                <div class="box__top">Top → Bottom</div>
-                <div class="box__bottom">Bottom → Top</div>
-                <div class="box__center">
-                  <img src="../wp-content/themes/stand-out/assets/img/rsp-logos/vh.jpg">
+            <div id="vh" class="box RSP" >
+                <div class="box__right">
+                    <span> <i class="fa fa-search"></i> </span>
                 </div>
-            </div>
-            <div class="box SP">
-                <div class="box__right">Right → Left</div>
-                <div class="box__left">Left → Right</div>
-                <div class="box__top">Top → Bottom</div>
-                <div class="box__bottom">Bottom → Top</div>
-                <div class="box__center">
-                  <img src="../wp-content/themes/stand-out/assets/img/sp-logos/igc.jpg">
+                <div class="box__left">
+                    <span> <i class="fa fa-search"></i> </span>
                 </div>
-            </div>
-            <div class="box SC">
-                <div class="box__right">Right → Left</div>
-                <div class="box__left">Left → Right</div>
-                <div class="box__top">Top → Bottom</div>
-                <div class="box__bottom">Bottom → Top</div>
-                <div class="box__center">
-                  <img src="../wp-content/themes/stand-out/assets/img/sc-logos/pnp.jpg">
+                <div class="box__top">
+                    <span> <i class="fa fa-search"></i> </span>
                 </div>
+                <div class="box__bottom">
+                    <span> <i class="fa fa-search"></i> </span>
+                </div>
+                <img src="../wp-content/themes/stand-out/assets/img/rsp-logos/vh.jpg">
             </div>
+            <div id="pc" class="box RSP" >
+                <div class="box__right">
+                    <span> <i class="fa fa-search"></i> </span>
+                </div>
+                <div class="box__left">
+                    <span> <i class="fa fa-search"></i> </span>
+                </div>
+                <div class="box__top">
+                    <span> <i class="fa fa-search"></i> </span>
+                </div>
+                <div class="box__bottom">
+                    <span> <i class="fa fa-search"></i> </span>
+                </div>
+                <img src="../wp-content/themes/stand-out/assets/img/rsp-logos/pc.jpg">
+            </div>
+            <div id="vh" class="box RSP" >
+                <div class="box__right">
+                    <span> <i class="fa fa-search"></i> </span>
+                </div>
+                <div class="box__left">
+                    <span> <i class="fa fa-search"></i> </span>
+                </div>
+                <div class="box__top">
+                    <span> <i class="fa fa-search"></i> </span>
+                </div>
+                <div class="box__bottom">
+                    <span> <i class="fa fa-search"></i> </span>
+                </div>
+                <img src="../wp-content/themes/stand-out/assets/img/rsp-logos/vh.jpg">
+            </div>
+            <div id="mh" class="box RSP" >
+                <div class="box__right">
+                    <span> <i class="fa fa-search"></i> </span>
+                </div>
+                <div class="box__left">
+                    <span> <i class="fa fa-search"></i> </span>
+                </div>
+                <div class="box__top">
+                    <span> <i class="fa fa-search"></i> </span>
+                </div>
+                <div class="box__bottom">
+                    <span> <i class="fa fa-search"></i> </span>
+                </div>
+                <img src="../wp-content/themes/stand-out/assets/img/rsp-logos/mh.jpg">
+            </div>
+            <div id="id" class="box RSP" >
+                <div class="box__right">
+                    <span> <i class="fa fa-search"></i> </span>
+                </div>
+                <div class="box__left">
+                    <span> <i class="fa fa-search"></i> </span>
+                </div>
+                <div class="box__top">
+                    <span> <i class="fa fa-search"></i> </span>
+                </div>
+                <div class="box__bottom">
+                    <span> <i class="fa fa-search"></i> </span>
+                </div>
+                <img src="../wp-content/themes/stand-out/assets/img/rsp-logos/id.jpg">
+            </div>
+            <div id="dc" class="box RSP" >
+                <div class="box__right">
+                    <span> <i class="fa fa-search"></i> </span>
+                </div>
+                <div class="box__left">
+                    <span> <i class="fa fa-search"></i> </span>
+                </div>
+                <div class="box__top">
+                    <span> <i class="fa fa-search"></i> </span>
+                </div>
+                <div class="box__bottom">
+                    <span> <i class="fa fa-search"></i> </span>
+                </div>
+                <img src="../wp-content/themes/stand-out/assets/img/rsp-logos/dc.jpg">
+            </div>
+            <div id="youth" class="box RSP" >
+                <div class="box__right">
+                    <span> <i class="fa fa-search"></i> </span>
+                </div>
+                <div class="box__left">
+                    <span> <i class="fa fa-search"></i> </span>
+                </div>
+                <div class="box__top">
+                    <span> <i class="fa fa-search"></i> </span>
+                </div>
+                <div class="box__bottom">
+                    <span> <i class="fa fa-search"></i> </span>
+                </div>
+                <img src="../wp-content/themes/stand-out/assets/img/rsp-logos/youth.jpg">
+            </div>
+            <div id="foc" class="box RSP" >
+                <div class="box__right">
+                    <span> <i class="fa fa-search"></i> </span>
+                </div>
+                <div class="box__left">
+                    <span> <i class="fa fa-search"></i> </span>
+                </div>
+                <div class="box__top">
+                    <span> <i class="fa fa-search"></i> </span>
+                </div>
+                <div class="box__bottom">
+                    <span> <i class="fa fa-search"></i> </span>
+                </div>
+                <img src="../wp-content/themes/stand-out/assets/img/rsp-logos/foc.jpg">
+            </div>
+            <div id="elders" class="box RSP" >
+                <div class="box__right">
+                    <span> <i class="fa fa-search"></i> </span>
+                </div>
+                <div class="box__left">
+                    <span> <i class="fa fa-search"></i> </span>
+                </div>
+                <div class="box__top">
+                    <span> <i class="fa fa-search"></i> </span>
+                </div>
+                <div class="box__bottom">
+                    <span> <i class="fa fa-search"></i> </span>
+                </div>
+                <img src="../wp-content/themes/stand-out/assets/img/rsp-logos/elders.jpg">
+            </div>
+            <div id="oh" class="box RSP" >
+                <div class="box__right">
+                    <span> <i class="fa fa-search"></i> </span>
+                </div>
+                <div class="box__left">
+                    <span> <i class="fa fa-search"></i> </span>
+                </div>
+                <div class="box__top">
+                    <span> <i class="fa fa-search"></i> </span>
+                </div>
+                <div class="box__bottom">
+                    <span> <i class="fa fa-search"></i> </span>
+                </div>
+                <img src="../wp-content/themes/stand-out/assets/img/rsp-logos/oh.jpg">
+            </div>
+            <div id="igc" class="box SP">
+                <div class="box__right">
+                    <span> <i class="fa fa-search"></i> </span>
+                </div>
+                <div class="box__left">
+                    <span> <i class="fa fa-search"></i> </span>
+                </div>
+                <div class="box__top">
+                    <span> <i class="fa fa-search"></i> </span>
+                </div>
+                <div class="box__bottom">
+                    <span> <i class="fa fa-search"></i> </span>
+                </div>
+                <img src="../wp-content/themes/stand-out/assets/img/sp-logos/igc.jpg">
+            </div>
+            <div id="igc" class="box SP">
+                <div class="box__right">
+                    <span> <i class="fa fa-search"></i> </span>
+                </div>
+                <div class="box__left">
+                    <span> <i class="fa fa-search"></i> </span>
+                </div>
+                <div class="box__top">
+                    <span> <i class="fa fa-search"></i> </span>
+                </div>
+                <div class="box__bottom">
+                    <span> <i class="fa fa-search"></i> </span>
+                </div>
+                <img src="../wp-content/themes/stand-out/assets/img/sp-logos/igc.jpg">
+            </div>
+            <div id="pnp" class="box SC">
+                <div class="box__right">
+                    <span> <i class="fa fa-search"></i> </span>
+                </div>
+                <div class="box__left">
+                    <span> <i class="fa fa-search"></i> </span>
+                </div>
+                <div class="box__top">
+                    <span> <i class="fa fa-search"></i> </span>
+                </div>
+                <div class="box__bottom">
+                    <span> <i class="fa fa-search"></i> </span>
+                </div>
+                <img src="../wp-content/themes/stand-out/assets/img/sc-logos/pnp.jpg">
+            </div>
+        </div>
+        <div id="info-box">
+            sample
         </div>
     </div>
 	    

@@ -33,6 +33,7 @@ function wpbf_child_scripts() {
 	
 	if ( is_page( 15 ) ) {
 		wp_enqueue_style( 'wsc-portfolios-style', WPBF_CHILD_THEME_URI . '/css/portfolio.css', array(), time());
+		wp_enqueue_style(' font-awesome ', '//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css', array(), time()); 
 		wp_enqueue_script( 'isotope-script', WPBF_CHILD_THEME_URI . '/assets/js/isotope.pkgd.min.js', array('jquery'), time());
 		wp_enqueue_script( 'wsc-portfolio-script', WPBF_CHILD_THEME_URI . '/js/portfolio.js', array(), time());
 	}
