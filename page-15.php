@@ -15,6 +15,7 @@ get_header(); ?>
         <button id="getSP">SPs</button>
         <button id="getSC">SCs</button>
         <button id="getAll">All</button>
+        <p> test </p>
         <div class="grid">
             <div id="vh" class="box RSP" >
                 <div class="box__right">
