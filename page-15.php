@@ -46,21 +46,6 @@ get_header(); ?>
                 </div>
                 <img src="../wp-content/themes/stand-out/assets/img/rsp-logos/pc.jpg">
             </div>
-            <div id="vh" class="box RSP" >
-                <div class="box__right">
-                    <span> <i class="fa fa-search"></i> </span>
-                </div>
-                <div class="box__left">
-                    <span> <i class="fa fa-search"></i> </span>
-                </div>
-                <div class="box__top">
-                    <span> <i class="fa fa-search"></i> </span>
-                </div>
-                <div class="box__bottom">
-                    <span> <i class="fa fa-search"></i> </span>
-                </div>
-                <img src="../wp-content/themes/stand-out/assets/img/rsp-logos/vh.jpg">
-            </div>
             <div id="mh" class="box RSP" >
                 <div class="box__right">
                     <span> <i class="fa fa-search"></i> </span>
@@ -181,7 +166,7 @@ get_header(); ?>
                 </div>
                 <img src="../wp-content/themes/stand-out/assets/img/sp-logos/igc.jpg">
             </div>
-            <div id="igc" class="box SP">
+            <div id="vm" class="box SP">
                 <div class="box__right">
                     <span> <i class="fa fa-search"></i> </span>
                 </div>
@@ -194,7 +179,82 @@ get_header(); ?>
                 <div class="box__bottom">
                     <span> <i class="fa fa-search"></i> </span>
                 </div>
-                <img src="../wp-content/themes/stand-out/assets/img/sp-logos/igc.jpg">
+                <img src="../wp-content/themes/stand-out/assets/img/sp-logos/vm.jpg">
+            </div>
+            <div id="curl" class="box SP">
+                <div class="box__right">
+                    <span> <i class="fa fa-search"></i> </span>
+                </div>
+                <div class="box__left">
+                    <span> <i class="fa fa-search"></i> </span>
+                </div>
+                <div class="box__top">
+                    <span> <i class="fa fa-search"></i> </span>
+                </div>
+                <div class="box__bottom">
+                    <span> <i class="fa fa-search"></i> </span>
+                </div>
+                <img src="../wp-content/themes/stand-out/assets/img/sp-logos/curl.jpg">
+            </div>
+            <div id="cor" class="box SP">
+                <div class="box__right">
+                    <span> <i class="fa fa-search"></i> </span>
+                </div>
+                <div class="box__left">
+                    <span> <i class="fa fa-search"></i> </span>
+                </div>
+                <div class="box__top">
+                    <span> <i class="fa fa-search"></i> </span>
+                </div>
+                <div class="box__bottom">
+                    <span> <i class="fa fa-search"></i> </span>
+                </div>
+                <img src="../wp-content/themes/stand-out/assets/img/sp-logos/cor.jpg">
+            </div>
+            <div id="ove" class="box SP">
+                <div class="box__right">
+                    <span> <i class="fa fa-search"></i> </span>
+                </div>
+                <div class="box__left">
+                    <span> <i class="fa fa-search"></i> </span>
+                </div>
+                <div class="box__top">
+                    <span> <i class="fa fa-search"></i> </span>
+                </div>
+                <div class="box__bottom">
+                    <span> <i class="fa fa-search"></i> </span>
+                </div>
+                <img src="../wp-content/themes/stand-out/assets/img/sp-logos/ove.jpg">
+            </div>
+            <div id="ir" class="box SC">
+                <div class="box__right">
+                    <span> <i class="fa fa-search"></i> </span>
+                </div>
+                <div class="box__left">
+                    <span> <i class="fa fa-search"></i> </span>
+                </div>
+                <div class="box__top">
+                    <span> <i class="fa fa-search"></i> </span>
+                </div>
+                <div class="box__bottom">
+                    <span> <i class="fa fa-search"></i> </span>
+                </div>
+                <img src="../wp-content/themes/stand-out/assets/img/sc-logos/ir.jpg">
+            </div>
+            <div id="fc" class="box SC">
+                <div class="box__right">
+                    <span> <i class="fa fa-search"></i> </span>
+                </div>
+                <div class="box__left">
+                    <span> <i class="fa fa-search"></i> </span>
+                </div>
+                <div class="box__top">
+                    <span> <i class="fa fa-search"></i> </span>
+                </div>
+                <div class="box__bottom">
+                    <span> <i class="fa fa-search"></i> </span>
+                </div>
+                <img src="../wp-content/themes/stand-out/assets/img/sc-logos/fincomm.jpg">
             </div>
             <div id="pnp" class="box SC">
                 <div class="box__right">
@@ -210,6 +270,21 @@ get_header(); ?>
                     <span> <i class="fa fa-search"></i> </span>
                 </div>
                 <img src="../wp-content/themes/stand-out/assets/img/sc-logos/pnp.jpg">
+            </div>
+            <div id="go" class="box SC">
+                <div class="box__right">
+                    <span> <i class="fa fa-search"></i> </span>
+                </div>
+                <div class="box__left">
+                    <span> <i class="fa fa-search"></i> </span>
+                </div>
+                <div class="box__top">
+                    <span> <i class="fa fa-search"></i> </span>
+                </div>
+                <div class="box__bottom">
+                    <span> <i class="fa fa-search"></i> </span>
+                </div>
+                <img src="../wp-content/themes/stand-out/assets/img/sc-logos/go.png">
             </div>
         </div>
         <div id="info-box">
