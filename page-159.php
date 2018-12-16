@@ -66,33 +66,6 @@ get_header(); ?>
     <!--                </ul> -->
             </div>
             <div id ='part'>
-                <p>RSP (Friends of Children)</p>
-    <!--               <ul>
-                        <li>National Youth Council</li> -->
-                            <img src="../wp-content/themes/stand-out/assets/img/spons-logos/NYCS.jpg">
-    <!--                    <li>People's Association</li> -->
-                            <img src="../wp-content/themes/stand-out/assets/img/spons-logos/PA.jpg">
-    <!--                    <li>Jurong Point Management Office</li> -->
-                            <img src="../wp-content/themes/stand-out/assets/img/spons-logos/jp.jpg">
-    <!--                </ul> -->
-            </div>
-            <div id ='part'>
-                <p>RSP (Visually Handicapped)</p>
-            </div>
-            <div id ='part'>
-                <p>RSP (Hearing Impaired)</p>
-    <!--                <ul>
-                        <li>National Youth Council</li> -->
-                            <img src="../wp-content/themes/stand-out/assets/img/spons-logos/NYCS.jpg">
-    <!--                </ul> -->
-            </div>
-            <div id ='part'>
-                <p>RSP (Physically Challenged)</p>
-            </div>
-            <div id ='part'>
-                <p>RSP (Intellectually disabled)</p>
-            </div>
-            <div id ='part'>
                 <p>RSP (Youth)</p>
 <!--                <ul>
                     <li>Ministry of Social and Family Development (MSF)</li> -->
@@ -106,7 +79,11 @@ get_header(); ?>
 <!--                </ul> -->
             </div>
             <div id ='part'>
-                <p>Ignite Change (IgC)</p>
+                <p>RSP (Hearing Impaired)</p>
+    <!--                <ul>
+                        <li>National Youth Council</li> -->
+                            <img src="../wp-content/themes/stand-out/assets/img/spons-logos/NYCS.jpg">
+    <!--                </ul> -->
             </div>
             <div id ='part'>
                 <p>Camp OutReach (COR)</p>
@@ -120,6 +97,17 @@ get_header(); ?>
 <!--                    <li>Prudential</li> -->
                         <img src="../wp-content/themes/stand-out/assets/img/spons-logos/pru.jpg">
 <!--                </ul> -->
+            </div>
+            <div id ='part'>
+                <p>RSP (Friends of Children)</p>
+    <!--               <ul>
+                        <li>National Youth Council</li> -->
+                            <img src="../wp-content/themes/stand-out/assets/img/spons-logos/NYCS.jpg">
+    <!--                    <li>People's Association</li> -->
+                            <img src="../wp-content/themes/stand-out/assets/img/spons-logos/PA.jpg">
+    <!--                    <li>Jurong Point Management Office</li> -->
+                            <img src="../wp-content/themes/stand-out/assets/img/spons-logos/jp.jpg">
+    <!--                </ul> -->
             </div>
             <div id ='part'>
                 <p>Volunteer Management (VM)</p>
@@ -137,6 +125,20 @@ get_header(); ?>
                             <img src="../wp-content/themes/stand-out/assets/img/spons-logos/NYCS.jpg">
     <!--                </ul> -->
             </div>
+            <div id ='part'>
+                <p>RSP (Visually Handicapped)</p>
+            </div>
+            <div id ='part'>
+                <p>Ignite Change (IgC)</p>
+            </div>
+            
+            <div id ='part'>
+                <p>RSP (Physically Challenged)</p>
+            </div>
+            <div id ='part'>
+                <p>RSP (Intellectually disabled)</p>
+            </div>
+            
         </div>
 	</main>    
 <?php get_footer(); ?>
