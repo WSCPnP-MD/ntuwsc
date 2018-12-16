@@ -12,35 +12,41 @@ get_header(); ?>
 
 
 	<main>
-        <div class="portfolio sponsor">
+        <style>
+            .sponsor img {
+                width: 150px;
+                height: 90px;
+            }
+        </style>
+        <div class="portfolio sponsor" style="background-color: white;">
             <h2>Welfare Services Club (WSC)</h2>
-                <ul>
-                    <li>National Council of Social Service (NCSS)</li>
+<!--                <ul>
+                    <li>National Council of Social Service (NCSS)</li> -->
                         <img src="../wp-content/themes/stand-out/assets/img/spons-logos/NCSSlogo.jpg">
-                    <li>WSC Alumni Association</li>
-                    <li>People's Association Youth Movement (PAYM)</li>
+<!--                    <li>WSC Alumni Association</li>
+                    <li>People's Association Youth Movement (PAYM)</li>-->
                         <img src="../wp-content/themes/stand-out/assets/img/spons-logos/PAYM.jpg">
                 </ul>
             <h2>Publicity and Publications (PnP)</h2>
-                <ul>
-                    <li>National Youth Council</li>
+<!--                <ul>
+                    <li>National Youth Council</li> -->
                         <img src="../wp-content/themes/stand-out/assets/img/spons-logos/NYCS.jpg">
                 </ul>
             <h2>RSP (Elders)</h2>
-                <ul>
-                    <li>Peach Garden Group</li>
+<!--                <ul>
+                    <li>Peach Garden Group</li> -->
                         <img src="../wp-content/themes/stand-out/assets/img/spons-logos/peach.jpg">
-                    <li>Unipack Pte Ltd</li>
+<!--                    <li>Unipack Pte Ltd</li> -->
                         <img src="../wp-content/themes/stand-out/assets/img/spons-logos/unipack.jpg">
-                    <li>ITRADE</li>
+<!--                    <li>ITRADE</li> -->
                         <img src="../wp-content/themes/stand-out/assets/img/spons-logos/itrade.jpg">
-                    <li>Universal Sovereign Trading Pte Ltd</li>
+<!--                    <li>Universal Sovereign Trading Pte Ltd</li> -->
                         <img src="../wp-content/themes/stand-out/assets/img/spons-logos/pursoft.jpg">
-                    <li>Borden Company Pre Ltd</li>
+<!--                    <li>Borden Company Pre Ltd</li> -->
                         <img src="../wp-content/themes/stand-out/assets/img/spons-logos/borden.jpg">
-                    <li>UIC Consumer Products Pte Ltd</li>
+<!--                    <li>UIC Consumer Products Pte Ltd</li> -->
                         <img src="../wp-content/themes/stand-out/assets/img/spons-logos/uic.jpg">
-                </ul>
+<!--                </ul> -->
             <h2>RSP (Friends of Children)</h2>
                 <ul>
                     <li>National Youth Council</li>
