@@ -13,24 +13,29 @@ get_header(); ?>
 
 	<main>
         <style>
-            .sponsor img {
+            .sponsor {
+                background-color: gray;
+            }
+            
+            img {
                 width: 150px;
                 height: 90px;
+                background-color: white;
+                border: 1px solid black;
             }
             #part {
-                /* background-color: yellow; */
                 display: inline-block;
                 vertical-align: top;
-                padding-right: 5px;
+                padding: 7px;
                 border-right: 1px solid black;
-                height: 150px;
                 text-align: center;
             }
             p {
                 text-align: left;
+                color: black;
             }
         </style>
-        <div class="portfolio sponsor" style="background-color: white;">
+        <div class="portfolio sponsor">
             <div id='part'>
                 <p>Welfare Services Club (WSC)</p>
     <!--                <ul>
@@ -125,6 +130,7 @@ get_header(); ?>
                             <img src="../wp-content/themes/stand-out/assets/img/spons-logos/NYCS.jpg">
     <!--                </ul> -->
             </div>
+            <br />
             <div id ='part'>
                 <p>RSP (Visually Handicapped)</p>
             </div>
