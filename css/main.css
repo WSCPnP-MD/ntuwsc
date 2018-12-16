@@ -105,10 +105,18 @@
     margin-top: 20px;
 }
 
-.icon {
+.icon-fb {
     width: calc((30px + 1vw)*1.67);
     border-radius: 50%;
     margin: 0 auto;
+    background: #fff;
+}
+
+.icon-insta {
+    width: calc((30px + 1vw)*1.67);
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-bottom: 10px;
     background: #fff;
 }
 
@@ -142,11 +150,18 @@
         display: flex;
         flex-direction: column;
     }
-    .facebook, .instagram {
-        width: 100%;
-        padding: 20px;
+    .facebook {
+        width: 90%;
+        padding: 5%;
+        margin: 5%;
         display: flex;
     }
+    .instagram {
+        width: 100%;
+        padding: 25px;
+        display: flex;
+    }
+
 }
 
 @media only screen and (max-width: 500px) {
