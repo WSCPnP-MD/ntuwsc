@@ -1,72 +1,80 @@
-<?php
-/**
- * Page Template
- *
- * @package Page Builder Framework
- */
- 
-// exit if accessed directly
-if ( ! defined( 'ABSPATH' ) ) exit;
+<!-- starting with sponsors html css then footer php -->
 
-get_header(); ?>
+<main>
+	<head>
+		<style>
+				.sponsor {
+					border-top: 30px solid white;
+					background-color: white;
+					padding-left: 15%;
+				}            
 
+				.two img {
+					width: 150px;
+					height: 90px;
+					background-color: white;
+					border: 1px solid black;
+                }
+                
+                /*plaster for homepage footer misalignment*/
+                #two, #title {
+                    text-align: left;
+                }
 
-	<main>
-        <style>
-            .sponsor {
-                background-color: gray;
-            }            
-            
-            .two {
-                border-left: 1px solid black;
-                padding-left: 5px;
-            }
+				.sponsor .part {
+					display: inline-block;
+					vertical-align: middle;
+				}
 
-            .two img {
-                width: 150px;
-                height: 90px;
-                background-color: white;
-                border: 1px solid black;
-            }
+				.sponsor p {
+					color: black;
+				}
 
-            #two {
-                float: left;
-            }
-
-            .part {
-                display: inline-block;
-                vertical-align: middle;
-            }
-
-            p {
-                color: black;
-            }
-
-        </style>
+				hr {
+					height: 1px;
+					background-color: lightgray;
+					border: none;
+				}
+				.portfolio {
+					left: auto;
+					right: auto;
+				}
+		</style>
+	</head>
+	
+	<body>
         <div class='portfolio sponsor'>
-            <div class='part one'>
-                <p> Made by Welfare Services Club </p>
-            </div>
+			<h1 id='title'><u>SPONSORS</u></h1>
+
+			<hr>
+			
             <div class ='part two'>
                 <div id='two'>
-                    <p>Welfare Services Club (WSC)</p>
+                    <p><u>Welfare Services Club (WSC)</u></p>
         <!--                <ul>
                             <li>National Council of Social Service (NCSS)</li> -->
                                 <img src="../wp-content/themes/stand-out/assets/img/spons-logos/NCSSlogo.jpg">
-        <!--                    <li>WSC Alumni Association</li>
-                            <li>People's Association Youth Movement (PAYM)</li>-->
+        <!--                    <li>WSC Alumni Association</li> -->
+								<img alt="WSC Alumni Association"/>
+        <!--                    <li>People's Association Youth Movement (PAYM)</li> -->
                                 <img src="../wp-content/themes/stand-out/assets/img/spons-logos/PAYM.jpg">
         <!--                </ul> -->
                 </div>
+
+				<hr>
+
                 <div id='two'>
-                    <p>Publicity and Publications (PnP)</p>
+                    <p><u>Publicity and Publications (PnP)</u></p>
         <!--                <ul>
                             <li>National Youth Council</li> -->
                                 <img src="../wp-content/themes/stand-out/assets/img/spons-logos/NYCS.jpg">
         <!--                </ul> -->
                 </div>
+
+				<hr>
+
                 <div id='two'>
-                    <p>RSP (Elders)</p>
+                    <p><u>RSP (Elders)</u></p>
         <!--                <ul>
                             <li>Peach Garden Group</li> -->
                                 <img src="../wp-content/themes/stand-out/assets/img/spons-logos/peach.jpg">
@@ -82,8 +90,11 @@ get_header(); ?>
                                 <img src="../wp-content/themes/stand-out/assets/img/spons-logos/uic.jpg">
         <!--                </ul> -->
                 </div>
+
+				<hr>
+
                 <div id='two'>
-                    <p>RSP (Youth)</p>
+                    <p><u>RSP (Youth)</u></p>
     <!--                <ul>
                         <li>Ministry of Social and Family Development (MSF)</li> -->
                             <img src="../wp-content/themes/stand-out/assets/img/spons-logos/msf.jpg">
@@ -95,15 +106,21 @@ get_header(); ?>
                             <img src="../wp-content/themes/stand-out/assets/img/spons-logos/BP.jpg">
     <!--                </ul> -->
                 </div>
+
+				<hr>
+
                 <div id='two'>
-                    <p>RSP (Hearing Impaired)</p>
+                    <p><u>RSP (Hearing Impaired)</u></p>
         <!--                <ul>
                             <li>National Youth Council</li> -->
                                 <img src="../wp-content/themes/stand-out/assets/img/spons-logos/NYCS.jpg">
         <!--                </ul> -->
                 </div>
+
+				<hr>
+
                 <div id='two'>
-                    <p>Camp OutReach (COR)</p>
+                    <p><u>Camp OutReach (COR)</u></p>
     <!--                <ul>
                         <li>National Youth Council</li> -->
                             <img src="../wp-content/themes/stand-out/assets/img/spons-logos/NYCS.jpg">
@@ -115,8 +132,11 @@ get_header(); ?>
                             <img src="../wp-content/themes/stand-out/assets/img/spons-logos/pru.jpg">
     <!--                </ul> -->
                 </div>
+
+				<hr>
+
                 <div id='two'>
-                    <p>RSP (Friends of Children)</p>
+                    <p><u>RSP (Friends of Children)</u></p>
         <!--               <ul>
                             <li>National Youth Council</li> -->
                                 <img src="../wp-content/themes/stand-out/assets/img/spons-logos/NYCS.jpg">
@@ -126,8 +146,11 @@ get_header(); ?>
                                 <img src="../wp-content/themes/stand-out/assets/img/spons-logos/jp.jpg">
         <!--                </ul> -->
                 </div>
+
+				<hr>
+
                 <div id='two'>
-                    <p>Volunteer Management (VM)</p>
+                    <p><u>Volunteer Management (VM)</u></p>
         <!--                <ul>
                             <li>National Youth Council</li> -->
                                 <img src="../wp-content/themes/stand-out/assets/img/spons-logos/NYCS.jpg">
@@ -135,8 +158,11 @@ get_header(); ?>
                                 <img src="../wp-content/themes/stand-out/assets/img/spons-logos/PA.jpg">
         <!--                </ul> -->
                 </div>
+
+				<hr>
+
                 <div id='two'>
-                    <p>Overseas Volunteering Expedition (OVE)</p>
+                    <p><u>Overseas Volunteering Expedition (OVE)</u></p>
         <!--                <ul>
                             <li>National Youth Council</li> -->
                                 <img src="../wp-content/themes/stand-out/assets/img/spons-logos/NYCS.jpg">
@@ -145,19 +171,48 @@ get_header(); ?>
             </div>
     <!--        <br />
             <div class ='part'>
-                <p>RSP (Visually Handicapped)</p>
+                <p><u>RSP (Visually Handicapped)</u></p>
             </div>
             <div class ='part'>
-                <p>Ignite Change (IgC)</p>
+                <p><u>Ignite Change (IgC)</u></p>
             </div>
             
             <div class ='part'>
-                <p>RSP (Physically Challenged)</p>
+                <p><u>RSP (Physically Challenged)</u></p>
             </div>
             <div class ='part'>
-                <p>RSP (Intellectually disabled)</p>
+                <p><u>RSP (Intellectually disabled)</u></p>
             </div> -->
             
         </div>
-	</main>    
-<?php get_footer(); ?>
+
+	</body>
+</main>
+
+<!-- Initial footer PHP caa 18-dec-2018 -->
+
+<?php
+/**
+ * Theme Footer
+ *
+ * @package Page Builder Framework
+ */
+ 
+// exit if accessed directly
+if ( ! defined( 'ABSPATH' ) ) exit;
+
+		do_action( 'wpbf_before_footer' );
+
+		if ( get_theme_mod( 'footer_layout' ) !== 'none' ) do_action( 'wpbf_footer' );
+
+		do_action( 'wpbf_after_footer' );
+
+		?>
+
+		<?php if ( get_theme_mod( 'layout_scrolltop' ) ) { ?>
+
+		<div class="scrolltop"></div>
+
+		<?php } ?>
+
+<?php wp_footer(); ?>
