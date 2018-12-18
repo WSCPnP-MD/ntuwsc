@@ -2,7 +2,7 @@
 
 
     $(document).ready(function() {
-        $('.owl-carousel').owlCarousel({
+        $("#24th-carousel").owlCarousel({
             loop:true,
             margin:10,
             nav:false,
@@ -21,9 +21,35 @@
             dots: false
         });
 
+        $("#23rd-carousel").owlCarousel({
+            loop:true,
+            margin:10,
+            nav:false,
+            autoplay:1000,
+            responsive:{
+                0:{
+                    items:1
+                },
+                600:{
+                    items:1
+                },
+                1000:{
+                    items:2
+                }
+            },
+            dots: false
+        });
+        $("#23rd-carousel").hide();
+        
+        $("#24th").click(function() {
+            $("#main-image").attr("src", "../wp-content/themes/stand-out/assets/img/24th-exco.jpg");
+            hideCarousel();
+            $("#24th-carousel").show();
+        });
         $("#23rd").click(function() {
             $("#main-image").attr("src", "../wp-content/themes/stand-out/assets/img/23rd-exco.jpg");
-            showCarousel();
+            hideCarousel();
+            $("#23rd-carousel").show();
         });
         $("#22nd").click(function() {
             $("#main-image").attr("src", "../wp-content/themes/stand-out/assets/img/22nd-exco.jpg");
@@ -37,7 +63,34 @@
             $("#main-image").attr("src", "../wp-content/themes/stand-out/assets/img/20th-exco.jpg");
             hideCarousel();
         });
-        $( ".committee-select" ).change(function() {
+                $("#23rd-carousel").owlCarousel({
+            loop:true,
+            margin:10,
+            nav:false,
+            autoplay:1000,
+            responsive:{
+                0:{
+                    items:1
+                },
+                600:{
+                    items:1
+                },
+                1000:{
+                    items:2
+                }
+            },
+            dots: false
+        });
+        $("#23rd-carousel").hide();
+        
+        $("#24th").click(function() {
+            $("#main-image").attr("src", "../wp-content/themes/stand-out/assets/img/24th-exco.jpg");
+            hideCarousel();
+            $("#24th-carousel").show();
+        });
+
+
+        /* $( ".committee-select" ).change(function() {
             switch ($(this).val()) {
                 case '23': {
                     $("#main-image").attr("src", "../wp-content/themes/stand-out/assets/img/23rd-exco.jpg");
@@ -60,15 +113,13 @@
                     break;
                 }
             }
-        });
+        }); */
+
     });
 
     /* This page has an Owl Carousel. These functions are an alias for showing and hiding them. Doesn't help much in terms of refactoring, but good for readability.*/
     function hideCarousel() {
-        $(".owl-carousel").hide();
+        $("#24th-carousel").hide(); 
+        $("#23rd-carousel").hide();
     }
-    function showCarousel() {
-        $(".owl-carousel").show();
-    }
-    
 })( jQuery );
