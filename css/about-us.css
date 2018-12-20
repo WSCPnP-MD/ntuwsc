@@ -127,6 +127,15 @@ li {
   padding-bottom: 30px;*/
 }
 
+.history h6 {
+  padding-top: 50px;
+  color: white;
+  font-family: bebasNeue;
+  font-size: calc(30px + 2vw);
+  /*border: 1px solid white;*/
+  padding-bottom: 30px;
+}
+
 /*affect img size in class history*/
 /*.history img { 
   width: 500;
@@ -136,7 +145,8 @@ li {
 
 img.MediaIMG {
 	height: 300px;
-	padding-bottom: 50px;
+	padding-bottom: 20px;
+	
 	
 }
 
@@ -154,7 +164,7 @@ img.MediaIMG {
 }
 
 .history ul:last-of-type {
-  padding-bottom: 50px;
+  /*padding-bottom: 50px;*/
 }
 
 
@@ -347,6 +357,7 @@ img.MediaIMG {
 body {
   background: #252827;
   font-size: 16px;
+  
 }
 
 p {
@@ -367,6 +378,7 @@ strong {
 #content {
   margin-top: 50px;
   text-align: center;
+  
 }
 /* Timeline */
 .timeline {
@@ -386,6 +398,7 @@ strong {
   text-align: left;
   font-weight: 100;
   max-width: 80%;
+
 }
 /*.timeline h1 {
   font-family: 'Saira', sans-serif;
@@ -396,7 +409,7 @@ strong {
 /*.timeline h5,
 .timeline h3*/.timeline h5 { /*category e.g GO!*/
   font-family: 'Open Sans', sans-serif;
-  letter-spacing: 1.5px;
+  letter-spacing: 2.5px;
   font-weight: 400; /*Thickness*/
   font-size: calc(15px + 0.5vw);/*1.4em;*/
 }
