@@ -46,22 +46,100 @@ get_header(); ?>
 						<li>31/07/2017 <a  class = "URLink" href="http://www.zaobao.com.sg/news/singapore/story20170731-783224", target="_blank"> <u>高声欢唱迎国庆 (Regular Service Project - Deaf Community).</u></a></li> 
 						<li>01/10/2016 <a  class = "URLink" href="https://www.zaobao.com.sg/special/report/singapore/gamsia365/story20161001-695686", target="_blank"> <u>大学生做慈善　“卖力”洗刷筹款 (Welfare Services Club).</u></a></li> 
 					</ul>
+				
 
-					
-					
+					<div class="MEDIArow">
+						<div class="MEDIAcolumn">
+							<img  class = "MediaIMG" src="../wp-content/themes/stand-out/assets/img/Hist_Media_Features/2018.17.11.jpg" alt="Image of 2018.17.11" style="width:100%" style="height:300">
+						</div>
+						<div class="MEDIAcolumn">
+							<img class = "MediaIMG" src="../wp-content/themes/stand-out/assets/img/Hist_Media_Features/2017.07.31.jpg" alt="Image of 2017.07.31" style="width:100%" style="height:300">
+						</div>
+						<div class="MEDIAcolumn">
+							<img class = "MediaIMG" src="../wp-content/themes/stand-out/assets/img/Hist_Media_Features/2016.10.01.jpg" alt="Image of 2016.10.01" style="width:100%" style="height:300">
+						</div>
+					</div>
+
+					<h3>Our Timeline </h3>
+
 				</div>
 
-				<div class="MEDIArow">
-					<div class="MEDIAcolumn">
-						<img  class = "MediaIMG" src="../wp-content/themes/stand-out/assets/img/Hist_Media_Features/2018.17.11.jpg" alt="Image of 2018.17.11" style="width:100%" style="height:300">
-					</div>
-					<div class="MEDIAcolumn">
-						<img class = "MediaIMG" src="../wp-content/themes/stand-out/assets/img/Hist_Media_Features/2017.07.31.jpg" alt="Image of 2017.07.31" style="width:100%" style="height:300">
-					</div>
-					<div class="MEDIAcolumn">
-						<img class = "MediaIMG" src="../wp-content/themes/stand-out/assets/img/Hist_Media_Features/2016.10.01.jpg" alt="Image of 2016.10.01" style="width:100%" style="height:300">
-					</div>
-				</div>
+				
+
+					<div id="content">
+
+						<ul class="timeline">
+							<li class="event" data-date="1985">
+							<h5>ID & PNP</h5>
+							<p  class = "TLP">"IDPNPLogo"</p>
+							</li>
+
+							<li class="event" data-date="1987">
+							<h5>Finance</h5>
+							<p class = "TLP">"FinanceLogo"</p>    
+							</li>
+
+							<li class="event" data-date="1991">
+							<h5>DC</h5>
+							<p class = "TLP">"DCLogo"</p>    
+							</li>
+
+							<li class="event" data-date="1992">
+							<h5>Elders</h5>
+							<p class = "TLP">"EldersLogo"</p>   
+							</li>
+
+							<li class="event" data-date="1994">
+							<h5>COR & VM</h5>
+							<p class = "TLP">"COR & VM Logo"</p>   
+							</li>
+
+							<li class="event" data-date="1996">
+							<h5>Youth</h5>
+							<p class = "TLP">"YouthLogo"</p>   
+							</li>
+
+							<li class="event" data-date="2002">
+							<h5>CurL, VH, FoC</h5>
+							<p class = "TLP">"CurL, VH, FoC Logo"</p>   
+							</li>
+
+							<li class="event" data-date="2003">
+							<h5>OVE</h5>
+							<p class = "TLP">"OVELogo"</p>   
+							</li>
+
+							<li class="event" data-date="2008">
+							<h5>IGC</h5>
+							<p class = "TLP">"IGCLogo"</p>   
+							</li>
+
+							<li class="event" data-date="2011">
+							<h5>GO! & PC</h5>
+							<p class = "TLP">"GO!&PCLogo"</p>   
+							</li>
+
+							<li class="event" data-date="2012">
+							<h5>OH</h5>
+							<p class = "TLP">"OHLogo"</p>   
+							</li>
+
+							<li class="event" data-date="2013">
+							<h5>IR</h5>
+							<p class = "TLP">"IRLogo"</p>   
+							</li>
+
+							<li class="event" data-date="2017">
+							<h5>MH</h5>
+							<p class = "TLP">"MHLogo"</p>   
+							</li>
+
+						</ul>
+						</div>
+					<p></p>
+
+
+
 				
 				<div class="timeline hide"> <!-- I want to hide the timeline for now because it's lost its aesthetic appeal -->
 					<div class="timeline-content">
