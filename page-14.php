@@ -12,13 +12,7 @@ get_header(); ?>
 
 	<!--Main-->
 	<main>
-
-		<!--Child 0 background frame-->
-		<div class= "overlay">
-
-		</div>
-
-		<!--Child 1 content frame-->
+		<!--Child 0 content frame-->
 		<div class="container">
 			<div class="row">
 				<div class="history">
