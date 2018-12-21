@@ -28,31 +28,40 @@
 	/*etc*/
 }
 
-
+/*Background Frame///////////////////////////////////////////////////*/
 body {
 	margin: 0;
 	padding:0;
-	height: 100%;
 	background-image: url(../assets/img/home/camera.jpg);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 }
 
+/*Content Frame//////////////////////////////////////////////////////*/
 .container {
 	font-family: var(--font_Head);
 	text-align: center;
 	background-color: #111;
 	width:80%;
+	height: 500px; /*temporary fixed only*/
 	margin: auto;
 }
 
+.column-2 
+{
+	float: center;
+    width: 80%;
+	text-align: center;
+	margin: auto;
+}
+
+/*Text//////////////////////////////////////////////////////////////*/
 .title-contact /*Title*/
 { 
 	color: var(--font_Color);
 	font-size: var(--text_Header_Size);
 	padding-top: 20px;
 }
-
 .text-contact 
 {
 	text-align: left;
@@ -60,8 +69,12 @@ body {
 	font-size: var(--text_Content_Size);
 	color: var(--font_Color);
 }
+.text-contactSize
+{
+	padding-top: 100px;
+}
 
-/*Standardize Color and ICON sizing*/
+/*ICON//////////////////////////////////////////////////////////////*/
 .fa-instagram, .fa-facebook, .fa-envelope 
 {
 	color: var(--ObjectColor);
@@ -71,19 +84,14 @@ body {
 	height : 150px;
 	width : 150px;
 	/*border: 1px solid blue;*/
-	
 }
-
-.fa-instagram:hover, .fa-facebook:hover, .fa-envelope:hover /*Enlarge and brighten*/
+.fa-instagram:hover, .fa-facebook:hover, .fa-envelope:hover 
 {
-	opacity: 0.7;
-	transform: rotate(15deg);
+	transform: rotate(20deg);
+	color: #2671D0;
 }
 
-
-
-/*URL Link Function///////////////////////////////////////////////////////////////*/
-
+/*URL Link Function/////////////////////////////////////////////////*/
 a.ContactInfo:link /*color of link when not visited*/
 { 
 	color: var(--font_Color);
@@ -97,20 +105,31 @@ a.ContactInfo:hover  /*color of link when hover*/
 	color: blue;
 }
 
-.row:after {
+/*Search Function*/
+#myInput 
+{
+  background-image: url(../assets/img/search.png); /* Add a search icon to input */
+  background-position: 10px 12px; /* Position the search icon */
+  background-repeat: no-repeat; /* Do not repeat the icon image */
+  width: 100%; /* Full-width */
+  font-size: 16px; /* Increase font-size */
+  padding: 12px 20px 12px 40px; /* Add some padding */
+  border: 1px solid #ddd; /* Add a grey border */
+  margin-bottom: 12px; /* Add some space below the input */
+  
+}
+
+
+
+
+
+/*Old Code///////////////////////////////////////////////*/
+
+/*.row:after {
 	content: "";
 	display: table;
 	clear: both;
-}
-
-.column-2 {
-	float: center;
-    width: 80%;
-	text-align: center;
-	margin: auto;
-}
-
-/*Old Code///////////////////////////////////////////////*/
+}*/
 
 /* mapping serve no purpose*/
 /*#map {
