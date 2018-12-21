@@ -151,9 +151,9 @@ get_header(); ?>
 					<!--Sub 3_Text--> <!-- Info : target="_blank", open new tab-->
 					<h3>Media featuring WSC</h3>
 					<ul class = "MED_Sub"> 
-						<li>11/07/2018 <a  class = "URLink" href="https://www.zaobao.com.sg/news/fukan/others/story20180711-874239", target="_blank"> <u>Special Project(SP) - Challenge your limits (南大职业嘉年华 助弱势者规划就业方向)</u></a></li> 
-						<li>31/07/2017 <a  class = "URLink" href="http://www.zaobao.com.sg/news/singapore/story20170731-783224", target="_blank"> <u>Regular Service Project(RSP) - Deaf Community (高声欢唱迎国庆)</u></a></li> 
-						<li>01/10/2016 <a  class = "URLink" href="https://www.zaobao.com.sg/special/report/singapore/gamsia365/story20161001-695686", target="_blank"> <u>WSC - Charity (大学生做慈善　“卖力”洗刷筹款)</u></a></li> 
+						<li>11/07/2018 <a  class = "URLink" href="https://www.zaobao.com.sg/news/fukan/others/story20180711-874239" target="_blank"> <u>Special Project(SP) - Challenge your limits (南大职业嘉年华 助弱势者规划就业方向)</u></a></li> 
+						<li>31/07/2017 <a  class = "URLink" href="http://www.zaobao.com.sg/news/singapore/story20170731-783224" target="_blank"> <u>Regular Service Project(RSP) - Deaf Community (高声欢唱迎国庆)</u></a></li> 
+						<li>01/10/2016 <a  class = "URLink" href="https://www.zaobao.com.sg/special/report/singapore/gamsia365/story20161001-695686" target="_blank"> <u>WSC - Charity (大学生做慈善　“卖力”洗刷筹款)</u></a></li> 
 					</ul>
 				
 					<!--Sub 3_ Images-->

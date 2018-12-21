@@ -32,7 +32,7 @@
 /*Content Frame/////////////////////////////////////////////////////////////////*/
 .container 
 {
-	background-color : var(--backgroundColor_Content);
+	background-color : #111/*var(--backgroundColor_Content)*/;
 	
 	/*Frame Adjustment*/
 	max-width: 85%;
@@ -168,7 +168,7 @@ img.thumbnailIMG
 }
   
 /*Timeline Structure////////////////////////////////////////////////////////////////*/  
-
+/*Credit : https://codepen.io/alanhouser/pen/aErrQJ*/
 /*Initialize*/
 body 
 {
