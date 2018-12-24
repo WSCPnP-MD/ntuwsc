@@ -159,13 +159,13 @@ get_header(); ?>
 					<!--Sub 3_ Images-->
 					<div class="MEDIArow">
 						<div class="MEDIAcolumn">
-							<img  class = "MediaIMG" src="../wp-content/themes/stand-out/assets/img/Hist_Media_Features/2018.17.11.jpg" alt="Image of 2018.17.11" style="width:100%" style="height:300">
+							<img  class = "MediaIMG" src="../wp-content/themes/stand-out/assets/img/Hist_Media_Features/2018.17.11.jpg" alt="Image of 2018.17.11" style="width:100%" > <!--style="height:300">-->
 						</div>
 						<div class="MEDIAcolumn">
-							<img class = "MediaIMG" src="../wp-content/themes/stand-out/assets/img/Hist_Media_Features/2017.07.31.jpg" alt="Image of 2017.07.31" style="width:100%" style="height:300">
+							<img class = "MediaIMG" src="../wp-content/themes/stand-out/assets/img/Hist_Media_Features/2017.07.31.jpg" alt="Image of 2017.07.31" style="width:100%" >
 						</div>
 						<div class="MEDIAcolumn">
-							<img class = "MediaIMG" src="../wp-content/themes/stand-out/assets/img/Hist_Media_Features/2016.10.01.jpg" alt="Image of 2016.10.01" style="width:100%" style="height:300">
+							<img class = "MediaIMG" src="../wp-content/themes/stand-out/assets/img/Hist_Media_Features/2016.10.01.jpg" alt="Image of 2016.10.01" style="width:100%" > 
 						</div>
 					</div>
 				</div>	

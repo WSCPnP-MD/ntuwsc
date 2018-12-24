@@ -11,7 +11,6 @@ if ( ! defined( 'ABSPATH' ) ) exit;
 get_header(); ?>
 	<!--<br>-->
 	<div class="container">
-		<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Type here to search">
 		<div class="title-contact">Contact Us</div>
 		<div class="row">
 			<!--<div class="column-2 divider-w">
@@ -20,12 +19,12 @@ get_header(); ?>
 				<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDqpwZMcidGyRiv7b0xAh51_2ZDoSMhs8s&callback=myMap"></script>
 			</div>-->
 			<div class="column-2">
-					<!--Social Media-->
-						<a class="fab fa-facebook fa-8x" href="https://www.facebook.com/ntuwsc/" target="_blank" ></a>
+			<!--fa-2x-->
+						<a class="fab fa-facebook" href="https://www.facebook.com/ntuwsc/" target="_blank" ></a>
 							<!--<i class="divider"></i>-->
-						<a class="fab fa-instagram fa-8x" href="https://www.instagram.com/ntuwsc/" target="_blank" ></a>	
+						<a class="fab fa-instagram" href="https://www.instagram.com/ntuwsc/" target="_blank" ></a>	
 							<!--<i class="divider"></i>-->
-						<a class="far fa-envelope fa-8x" href="mailto:wsc-hongensec@e.ntu.edu.sg"></a>
+						<a class="far fa-envelope" href="mailto:wsc-hongensec@e.ntu.edu.sg"></a>
 				<div class = "text-contactSize"> <!--style="padding:5px" --> 
 					<p class="text-contact">For sponsorship and collaboration opportunities, please contact <a class = "ContactInfo" href="mailto:wsc-hongensec@e.ntu.edu.sg"><u>wsc-hongensec@e.ntu.edu.sg</u></a>
 					</p>

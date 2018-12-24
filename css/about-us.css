@@ -260,6 +260,65 @@ p.TLP
 	top: 5px;
 }
 
+/*Mobile Sizing/////////////////////////////////////////////////////*/
+
+@media only screen and (max-width: 714px) 
+{
+	p.Hist_Head 
+	{
+		text-indent: 0px; /*spacing*/
+	}
+	ul.Hist_Sub 
+	{
+		padding-left : 30px;
+		padding-right : 30px;
+	}
+	.history h2 
+	{
+		padding-top: 10px;
+		/*border: 1px solid red;*/
+	}
+	.history h3,h6 
+	{
+		padding-top: 10px;
+		/*border: 1px solid red;*/
+	}
+	.history p 
+	{
+		padding-left : 20px;
+		padding-right : 20px;
+	}
+	
+	.timeline .event:before /*year*/
+	{ 
+		left: -185px;
+	}
+	
+	img.MediaIMG 
+	{
+		width : 300%;
+		height : 100px;
+		padding-bottom : 10px;
+		
+	}
+	.MEDIAcolumn 
+	{
+		float: left;
+		padding : 0px;
+	}
+	li 
+	{
+		text-align: left;
+		margin: 10px 0px;
+	}
+	p.TLP
+	{
+		display : none; /*too long*/
+	}
+	
+  
+}
+
 /*In Progress //////////////////////////////////////////////////////*/
 
 /*Extra or Maybe Important Code//////////////////////////////////////////////////*/

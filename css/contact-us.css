@@ -71,7 +71,7 @@ body {
 }
 .text-contactSize
 {
-	padding-top: 100px;
+	padding-top: 80px;
 }
 
 /*ICON//////////////////////////////////////////////////////////////*/
@@ -80,9 +80,10 @@ body {
 	color: var(--ObjectColor);
 	text-align: center;
 	text-decoration: none;
-	padding: 8px 0px 0px 0px;
+	padding: 15px 0px 0px 0px;
 	height : 150px;
 	width : 150px;
+	font-size : 125px;
 	/*border: 1px solid blue;*/
 }
 .fa-instagram:hover, .fa-facebook:hover, .fa-envelope:hover 
@@ -105,76 +106,26 @@ a.ContactInfo:hover  /*color of link when hover*/
 	color: blue;
 }
 
-/*Search Function*/
-#myInput 
+/*Mobile Sizing/////////////////////////////////////////////////////*/
+
+@media only screen and (max-width: 714px) 
 {
-  background-image: url(../assets/img/search.png); /* Add a search icon to input */
-  background-position: 10px 12px; /* Position the search icon */
-  background-repeat: no-repeat; /* Do not repeat the icon image */
-  width: 100%; /* Full-width */
-  font-size: 16px; /* Increase font-size */
-  padding: 12px 20px 12px 40px; /* Add some padding */
-  border: 1px solid #ddd; /* Add a grey border */
-  margin-bottom: 12px; /* Add some space below the input */
+  .fa-instagram, .fa-facebook, .fa-envelope 
+  {
+	  width: 50px; 
+	  height : 50px; 
+	  font-size : 40px;
+	  padding-top: 1%;
+  }
+  .text-contactSize 
+  {
+	  padding-top : 10%;
+  }
+  .container 
+  {
+	 height : 10%;
+  }
   
 }
-
-
-
-
-
-/*Old Code///////////////////////////////////////////////*/
-
-/*.row:after {
-	content: "";
-	display: table;
-	clear: both;
-}*/
-
-/* mapping serve no purpose*/
-/*#map {
-	margin: auto;
-	margin: 30px;
-}
-
-.map{
-	width: 400px;
-	height: 400px;
-}*/
-
-/*@media only screen and (max-width: 600px) {
-	.column-2 {
-		width: 100%;
-	}
-	.container {
-		width: 100%;
-	}
-	.map{
-		width: 300px;
-		height: 300px;
-	}
-	.divider-w {
-		width: 100%;
-		border-right: none;
-	}
-}*/
-
-/*Can be better*/
-/*
-.divider {
-	border-right: 2px gray solid;
-	font-size: 35px;
-}
-
-.divider-w {
-	border-right: 2px solid white;
-	width:49%;
-	margin: 20px 0px 20px 0px;
-}
-
-.h-divider {
-	border-bottom: 2px gray solid;
-	margin: 0px 10px 0px 10px;
-}*/
 
 
