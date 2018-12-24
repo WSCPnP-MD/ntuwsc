@@ -1,26 +1,85 @@
+/* global variables */
 :root {
   --desktop-box-width: 200px;
   --halfway-box-width: 25vw; 
-  --mobile-box-width: 45vw;
+  --mobile-box-width: 40vw;
 }
+
+body {
+  background-color: #fff !important;
+}
+/* end global variables */
+
+/* style for content between menu and the footer */
 .container {
   background-color: #ffffff;
   padding-left: 5vw; /* only for desktop */
 }
+/* end style for content between menu and footer */
 
-.grid {
-    display: flex;
-    flex-direction: row;
+/* style for filter buttons */
+.filter-buttons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  flex-basis: 30%;
+  justify-content: center;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
 }
 
+.filter-buttons button {
+  font-size: 3vh;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  margin-right: 1vh;
+  border: 0px solid black;
+  border-radius: 16px;
+  font-family: Montserrat;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.filter-buttons button:hover {
+  cursor: pointer;
+}
+
+#getRSP:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+#getSP:hover {
+  background-color: blue;
+  color: white;
+}
+
+#getSC:hover {
+  background-color: red;
+  color: white;
+}
+
+#getAll:hover {
+  background-color: #111;
+  color: white;
+}
+
+/* end style for filter buttons */
+
+/* style for the search icon in the overlay */
 .box span {
   border: solid 2px #fff;
   padding: 10px 12px;
   border-radius: 50%;
 }
+/* end style for search icon */
 
-#info-box {
-  margin-top: 200vh;
+/* style for project boxes */
+.grid {
+  display: flex;
+  flex-direction: row;
 }
 
 .box {
@@ -33,31 +92,42 @@
     font-size: 16px;
     display: block;
 }
+/* end style for project boxes */
 
+/* style for info box */
+#info-box {
+  margin-top: 10vh;
+  visibility: hidden;
+}
+/* end style for info box */
+
+/* Media query for fitting into smaller screens */
 @media screen and (max-width: 600px) {
-    /* .box {
+    .box {
       height: var(--mobile-box-width);
       width: var(--mobile-box-width);
       line-height: var(--mobile-box-width);
-    } */
+    }
 
     .container {
-      padding-left: 0px;
+      padding-left: 5vw;
+      padding-right: 5vw;
     }
 }
 
 @media screen and (max-width: 1000px) and (min-width: 600px) {
-  /* .box {
+  .box {
     height: var(--halfway-box-width);
     width: var(--halfway-box-width);
     line-height: var(--halfway-box-width);
-  } */
+  }
 
   .container {
-    padding-left: 0px;
+    padding-left: 10vw;
+    padding-right: 10vw;
   }
 }
-
+/* end media query */
 
 /* styles for directed hovering effect */
 .box__right, .box__left, .box__top, .box__bottom {
@@ -164,3 +234,4 @@
   background: orange;
   z-index: -1;
 }
+/* end styles for hovering effect */
