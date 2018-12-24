@@ -161,6 +161,7 @@ ul {
 
   .right-column {
     width: 100%;
+    margin-top: 0%;
   }
 
   .container {
@@ -169,5 +170,10 @@ ul {
 
   .extra-navigator {
     display: block;
+    margin-top: 5%;
+
+  }
+  .wrapper {
+    margin-top: 10%;
   }
 }

@@ -89,12 +89,19 @@
             $("#24th-carousel").show();
         });
 
-
-        /* $( ".committee-select" ).change(function() {
+        /* For Mobile navigation */
+        $( ".committee-select" ).change(function() {
             switch ($(this).val()) {
+                case '24': {
+                    $("#main-image").attr("src", "../wp-content/themes/stand-out/assets/img/24th-exco.jpg");
+                    hideCarousel();
+                    $("#24th-carousel").show();
+                    break;
+                }
                 case '23': {
                     $("#main-image").attr("src", "../wp-content/themes/stand-out/assets/img/23rd-exco.jpg");
-                    showCarousel();
+                    hideCarousel();
+                    $("#23rd-carousel").show();
                     break;
                 }
                 case '22': {
@@ -113,7 +120,7 @@
                     break;
                 }
             }
-        }); */
+        }); 
 
     });
 
