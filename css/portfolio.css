@@ -1,4 +1,6 @@
 /* global variables */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
 :root {
   --desktop-box-width: 200px;
   --halfway-box-width: 25vw; 
@@ -40,6 +42,9 @@ body {
   font-family: Montserrat;
   font-weight: 400;
   font-style: normal;
+  -webkit-transition: all 0.3s; /* Safari */
+  transition: all 0.3s;
+  /* box-shadow: 1px 2px 1px; */
 }
 
 .filter-buttons button:hover {
@@ -97,8 +102,42 @@ body {
 /* style for info box */
 #info-box {
   margin-top: 10vh;
+  text-align: center;
+  padding-bottom: 10vh;
   visibility: hidden;
+  max-width: 90vw;
 }
+
+#info-box h2 {
+  color: #111;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#info p {
+  color: #222;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.item {
+  /* max-height: 60vh; */
+  background: #eee;
+}
+
+.item img {
+  max-height: 50vh;
+  width: auto !important;
+  margin: 0 auto;
+}
+
+#contact-buttons {
+  font-size: 30px;
+}
+
+#contact-buttons i {
+  /* margin-right: 5vw;
+  margin-left: 5vw; */
+}
+
 /* end style for info box */
 
 /* Media query for fitting into smaller screens */
