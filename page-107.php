@@ -40,11 +40,8 @@ get_header(); ?>
 				</div>
 				<div class="right-box">
 					<p>
-					Nameless manages the allocated budget from the Finance Office across all portfolios within WSC. Our support in the financial aspect of each portfolio’s operations enables them to focus on and achieve their respective objectives and goals.
+					The Finance Committee manages the allocated budget from the Finance Office across all portfolios within WSC. Our support in the financial aspect of each portfolio’s operations enables them to focus on and achieve their respective objectives and goals.
 Active liaising with all portfolios and the Finance Office, our role is paramount in ensuring that all portfolios remain financially healthy at all times by monitoring expenditures, incomes and reporting any variances, as well as facilitating financial procedures on claims, donations and remunerations through active liaison with all portfolios and the Finance Office.
-					</p>
-					<p>
-					TEST123
 					</p>
 				</div>
 			</div>
