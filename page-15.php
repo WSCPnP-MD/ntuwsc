@@ -11,12 +11,10 @@ if ( ! defined( 'ABSPATH' ) ) exit;
 get_header(); ?>
 
     <div class="container">
-        <div class="filter-buttons">
-            <button id="getRSP">Regular Service Projects</button>
-            <button id="getSP">Special Projects</button>
-            <button id="getSC">Special Committees</button>
-            <button id="getAll">All</button>
-        </div>
+        <button id="getRSP">RSPs</button>
+        <button id="getSP">SPs</button>
+        <button id="getSC">SCs</button>
+        <button id="getAll">All</button>
         <div class="grid">
             <div id="vh" class="box RSP" >
                 <div class="box__right">
@@ -290,32 +288,7 @@ get_header(); ?>
             </div>
         </div>
         <div id="info-box">
-            <h2>Project-Name</h2>
-            <div class="owl-carousel">
-                <figure class="item" id="introPic1">
-                    <img src="../wp-content/themes/stand-out/assets/img/owl-carousel/23rd/president.jpg">
-                </figure>
-                <figure class="item" id="introPic2">
-                    <img src="../wp-content/themes/stand-out/assets/img/owl-carousel/23rd/vp1.jpg">
-                </figure>
-                <figure class="item" id="introPic3">
-                    <img src="../wp-content/themes/stand-out/assets/img/owl-carousel/23rd/vp2.jpg">
-                </figure>
-                <figure class="item" id="introPic4">
-                    <img src="../wp-content/themes/stand-out/assets/img/owl-carousel/23rd/pnp.jpg">
-                </figure>
-                <figure class="item" id="introPic5">
-                    <img src="../wp-content/themes/stand-out/assets/img/owl-carousel/23rd/pc.jpg">
-                </figure>
-            </div>
-            <div id="info">
-                <!-- info gets updated using javascript -->
-                <p> Insert some stuff here </p>
-                <div id="contact-buttons">
-                    <a id="fb"><i class="fa fa-facebook-square"></i></a>
-                    <a id="website"><i class="fa fa-globe"></i></a>
-                </div>
-            </div>
+            sample
         </div>
     </div>
 	    
