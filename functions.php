@@ -33,20 +33,15 @@ function wpbf_child_scripts() {
 	
 	if ( is_page( 15 ) ) {
 		wp_enqueue_style( 'wsc-portfolios-style', WPBF_CHILD_THEME_URI . '/css/portfolio.css', array(), time());
-		wp_enqueue_style( 'owl-carousel-st', WPBF_CHILD_THEME_URI . '/assets/owlCarousel/dist/assets/owl.carousel.min.css', array(), time());
 		wp_enqueue_style(' font-awesome ', '//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css', array(), time()); 
 		wp_enqueue_script( 'isotope-script', WPBF_CHILD_THEME_URI . '/assets/js/isotope.pkgd.min.js', array('jquery'), time());
 		wp_enqueue_script( 'wsc-portfolio-script', WPBF_CHILD_THEME_URI . '/js/portfolio.js', array(), time());
-		wp_enqueue_script( 'owl-carousel-scr', WPBF_CHILD_THEME_URI . '/assets/owlCarousel/dist/owl.carousel.min.js', array('jquery'), time());
 	}
 	else {
 	// remove the styles and scripts after leaving the about us page
-		wp_dequeue_script( 'owl-carousel-scr' );
 		wp_dequeue_script( 'wsc-portfolio-script' );
 		wp_dequeue_script( 'isotope-script' );
-		wp_dequeue_style( ' owl-carousel-st ');
 		wp_dequeue_style( 'wsc-portfolios-style' );
-		wp_dequeue_style( 'font-awesome' );
 	}
 
 	// Add styles and scripts if at the main committee page (which has the id of 68)
