@@ -1,117 +1,130 @@
+/* Imported fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Cedarville+Cursive');
+@import url('https://fonts.googleapis.com/css?family=Chivo:300,300i,400,400i,700,700i,900,900i|Saira+Extra+Condensed:100,200,300,400,500,600,700,800|Saira:100,200,300,400,500,600,700,800');
+@font-face 
+{
+    font-family: bebasNeue;
+    src: url(../assets/fonts/bebas-neue-regular.ttf);
+}
+
+:root /*Standardize*/
+{
+	/*Text*/
+	--font_Head: bebasNeue; /*font Head*/  /*var(--font_Head)*/
+	--font_Content: 'Open Sans', sans-serif; /*font Content*/  /*var(--font_Content)*/
+	--font_Color: white; /*font Content*/  /*var(--font_Color)*/
+
+	/*Sizing*/
+	--paddingDIV2: 80px; /*spacing for text and container*/  /*var(--paddingDIV2)*/
+	--text_Content_Size: calc(15px + 0.5vw); /*font Content*/  /*var(--text_Content_Size)*/
+	--text_Header_Size: calc(30px + 2vw); /*font Content*/  /*var(--text_Header_Size)*/
+		
+	/*Background*/
+	--backgroundColor_Content: black; /*var(--backgroundColor_Content)*/
+
+	/*Object Color*/
+	--ObjectColor: white; /*var(--ObjectColor)*/
+	/*etc*/
+}
+
+/*Background Frame///////////////////////////////////////////////////*/
 body {
 	margin: 0;
 	padding:0;
-	height: 100%;
+	background-image: url(../assets/img/home/camera.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 }
 
+/*Content Frame//////////////////////////////////////////////////////*/
 .container {
-	font-family: "Courier New";
+	font-family: var(--font_Head);
 	text-align: center;
-	background-image: linear-gradient(rgba(255,255,255,0.2), rgba(255,255,255,0.3)),url("../assets/img/contact-us-bg.jpg");
+	background-color: #111;
 	width:80%;
+	height: 500px; /*temporary fixed only*/
 	margin: auto;
 }
 
-.row:after {
-	content: "";
-	display: table;
-	clear: both;
-}
-
-.column-2 {
-	float: left;
-    width: 50%;
+.column-2 
+{
+	float: center;
+    width: 80%;
 	text-align: center;
 	margin: auto;
 }
 
-#map {
-	margin: auto;
-	margin: 30px;
+/*Text//////////////////////////////////////////////////////////////*/
+.title-contact /*Title*/
+{ 
+	color: var(--font_Color);
+	font-size: var(--text_Header_Size);
+	padding-top: 20px;
 }
-
-.map{
-	width: 400px;
-	height: 400px;
-}
-
-.title-contact {
-		color: #3672A4;
-		font-size: 35px;
-		font-weight: bold;
-		padding-top: 20px;
-}
-
-.title2 {
-	text-align: center;
-	font-size: 25px;
-	color: navy;
-}
-.fa-instagram, .fa-facebook, .fa-envelope {
-	text-align: center;
-	text-decoration: none;
-	padding: 0px 0px 0px 10px;
-}
-
-.fa-instagram:hover, .fa-facebook:hover, .fa-envelope:hover {
-	opacity: 0.7;
-	transform: rotate(15deg);
-}
-
-.fa-instagram {
-	color: #8134AF;
-}
-
-.fa-facebook {
-	color: #3B5998;
-}
-
-.fa-envelope {
-	color: black;
-}
-
-.divider {
-	border-right: 2px gray solid;
-	font-size: 35px;
-}
-
-.divider-w {
-	border-right: 2px solid white;
-	width:49%;
-	margin: 20px 0px 20px 0px;
-}
-
-.h-divider {
-	border-bottom: 2px gray solid;
-	margin: 0px 10px 0px 10px;
-}
-
-.text-contact {
+.text-contact 
+{
 	text-align: left;
 	padding: 5px 15px;
-	font-size: 25px;
-	color: black;
+	font-size: var(--text_Content_Size);
+	color: var(--font_Color);
+}
+.text-contactSize
+{
+	padding-top: 80px;
 }
 
-a {
-	color: #000;
+/*ICON//////////////////////////////////////////////////////////////*/
+.fa-instagram, .fa-facebook, .fa-envelope 
+{
+	color: var(--ObjectColor);
+	text-align: center;
+	text-decoration: none;
+	padding: 15px 0px 0px 0px;
+	height : 150px;
+	width : 150px;
+	font-size : 125px;
+	/*border: 1px solid blue;*/
+}
+.fa-instagram:hover, .fa-facebook:hover, .fa-envelope:hover 
+{
+	transform: rotate(20deg);
+	color: #2671D0;
 }
 
-@media only screen and (max-width: 600px) {
-	.column-2 {
-		width: 100%;
-	}
-	.container {
-		width: 100%;
-	}
-	.map{
-		width: 300px;
-		height: 300px;
-	}
-	.divider-w {
-		width: 100%;
-		border-right: none;
-	}
+/*URL Link Function/////////////////////////////////////////////////*/
+a.ContactInfo:link /*color of link when not visited*/
+{ 
+	color: var(--font_Color);
+}
+a.ContactInfo:visited /* visited link */
+{ 
+	color: var(--font_Color);
+}
+a.ContactInfo:hover  /*color of link when hover*/
+{ 
+	color: blue;
 }
 
+/*Mobile Sizing/////////////////////////////////////////////////////*/
+
+@media only screen and (max-width: 714px) 
+{
+  .fa-instagram, .fa-facebook, .fa-envelope 
+  {
+	  width: 50px; 
+	  height : 50px; 
+	  font-size : 40px;
+	  padding-top: 1%;
+  }
+  .text-contactSize 
+  {
+	  padding-top : 10%;
+  }
+  .container 
+  {
+	 height : 10%;
+  }
+  
+}
 

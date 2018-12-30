@@ -1,7 +1,328 @@
+/* Imported fonts */
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 @import url('https://fonts.googleapis.com/css?family=Cedarville+Cursive');
+@import url('https://fonts.googleapis.com/css?family=Chivo:300,300i,400,400i,700,700i,900,900i|Saira+Extra+Condensed:100,200,300,400,500,600,700,800|Saira:100,200,300,400,500,600,700,800');
+@font-face 
+{
+    font-family: bebasNeue;
+    src: url(../assets/fonts/bebas-neue-regular.ttf);
+}
 
-* {
+/*Variables*/
+
+:root /*Standardize*/
+{
+	/*Text*/
+	--font_Head: bebasNeue; /*font Head*/  /*var(--font_Head)*/
+	--font_Content: 'Open Sans', sans-serif; /*font Content*/  /*var(--font_Content)*/
+	--font_Color: white; /*font Content*/  /*var(--font_Color)*/
+
+	/*Sizing*/
+	--paddingDIV2: 80px; /*spacing for text and container*/  /*var(--paddingDIV2)*/
+	--text_Content_Size: calc(15px + 0.5vw); /*font Content*/  /*var(--text_Content_Size)*/
+	--text_Header_Size: calc(30px + 2vw); /*font Content*/  /*var(--text_Header_Size)*/
+		
+	/*Background*/
+	--backgroundColor_Content: black; /*var(--backgroundColor_Content)*/	
+	/*etc*/
+}
+
+/*Main*/
+
+/*Content Frame/////////////////////////////////////////////////////////////////*/
+.container 
+{
+	background-color : #111/*var(--backgroundColor_Content)*/;
+	
+	/*Frame Adjustment*/
+	max-width: 85%;
+	margin: 0 auto;
+	text-align: center; /*adjust header text alignment*/
+  
+}
+
+/*URL Link Function///////////////////////////////////////////////////////////////*/
+
+a.URLink:link /*color of link when not visited*/
+{ 
+	color: var(--font_Color);
+}
+a.URLink:visited /* visited link */
+{ 
+	color: var(--font_Color);
+}
+a.URLink:hover  /*color of link when hover*/
+{ 
+	color: blue;
+}
+
+
+/*Text Content     ///////////////////////////////////////////////////////////////*/
+
+p.Hist_Head::first-letter 
+{
+	font-size: 200%; /*Increase First Letter*/
+}
+p.Hist_Head 
+{
+	text-indent: 50px; /*spacing*/
+	padding-left : var(--paddingDIV2);
+	padding-right : var(--paddingDIV2);
+}
+p.Hist_End 
+{
+	padding-bottom : 20px; /*Adjustment*/
+	padding-left : var(--paddingDIV2);
+	padding-right : var(--paddingDIV2);
+}
+.history
+{ 
+	background-repeat: repeat-y;
+	color: var(--font_Color);
+	font-size: var(--text_Content_Size);
+	font-family: var(--font_Content);
+	margin-top: 20px;
+	/*border: 1px solid blue;*/
+}
+.history p
+{
+	width: 100%;
+	position: static;
+	text-align: left;
+	/*border: 1px solid yellow;*/
+}
+.history h2
+{ 
+	padding-top: 50px;
+	color: var(--font_Color);
+	font-family: var(--font_Head); 
+	font-size: var(--text_Header_Size); 
+	/*border: 1px solid white;*/
+}
+.history h3, h6 
+{
+	padding-top: 50px;
+	color: var(--font_Color);
+	font-family: var(--font_Head);
+	font-size: var(--text_Header_Size);
+	padding-bottom: 30px;
+	/*border: 1px solid white;*/
+}
+ul.ANA_Sub 
+{
+	width: 90%;
+	position: relative;
+	left: 5%;
+	/*border: 1px solid green;*/
+}
+ul.Hist_Sub 
+{
+	width: 90%;
+	position: relative;
+	left: 5%;
+	list-style-type: none;
+	padding-left : 150px;
+	/*border: 1px solid red;*/
+
+}
+ul.MED_Sub 
+{
+	width: 90%;
+	position: relative;
+	left: 5%;
+	/*border: 1px solid purple;*/
+}
+li 
+{
+	text-align: left;
+	margin: 25px 0;
+}
+
+/*Image Function////////////////////////////////////////////////////////////////*/
+
+img.MediaIMG 
+{
+	height: 250px;
+	padding-bottom: 20px;
+}
+img.thumbnailIMG 
+{
+	float :none;
+	margin-bottom:20px;
+}
+.caption 
+{
+    display: block;
+}
+.MEDIAcolumn 
+{
+	float: left;
+	width: 33.33%;
+	padding: 5px;
+}
+.MEDIArow::after /* Clear floats after image containers */
+{
+	content: "";
+	clear: both;
+	display: table;
+}
+  
+/*Timeline Structure////////////////////////////////////////////////////////////////*/  
+/*Credit : https://codepen.io/alanhouser/pen/aErrQJ*/
+/*Initialize*/
+body 
+{
+	background: #252827;
+	font-size: 15px;
+	background-image: url(../assets/img/home/camera.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	/*filter: blur(8px);*/
+	/*-webkit-filter: blur(8px);*/
+}
+#content 
+{
+	margin-top: 50px;
+	text-align: centre;
+}
+p.TLP 
+{
+	padding-left : 50px;	
+}
+
+/* Timeline */
+.timeline 
+{
+	border-left: 4px solid var(--font_Color); /*#004ffc;*/ /*the timeline_line*/
+	border-bottom-right-radius: 4px;
+	border-top-right-radius: 4px;
+	background: rgba(255, 255, 255, 0.03/*0.03*/); /*color right side*/
+	color: rgba(255, 255, 255, 1/*0.8*/);
+	font-family: var(--font_Content);
+	margin: 0px auto;
+	letter-spacing: 0.5px;
+	position: relative;
+	line-height: 1.4em;
+	font-size: 0.8em/*1.03em*/;
+	padding: 50px;
+	list-style: none;
+	text-align: left;
+	font-weight: 100;
+	max-width: 65%;
+}
+.timeline h5 /*category e.g GO!*/
+{ 
+	font-family: var(--font_Content);
+	letter-spacing: 2.5px;
+	font-weight: 400; /*Thickness*/
+	font-size: var(--text_Content_Size);/*1.4em;*/
+	color : white;
+}
+.timeline .event /*dashed line*/
+{ 
+	border-bottom: 1px dashed rgba(255, 255, 255, 0.1);
+	padding-bottom: 1px;
+	margin-bottom: 10px;
+	position: relative;
+}
+.timeline .event:last-of-type 
+{
+	padding-bottom: 0;
+	margin-bottom: 0;
+	border: none;
+}
+.timeline .event:before,.timeline .event:after 
+{
+	position: absolute;
+	display: block;
+	top: 0;
+}
+.timeline .event:before /*year*/
+{ 
+	left: -215px; 
+	color: rgba(255, 255, 255, 1/*0.4*/);
+	content: attr(data-date);
+	text-align: right;
+	font-weight: 100;
+	font-size: var(--text_Content_Size);
+	min-width: 120px;
+	font-family: 'Saira', sans-serif; /*Special Font for Year*/
+}
+.timeline .event:after /*dot node*/
+{ 
+	box-shadow: 0 0 0 4px var(--font_Color); 
+	left: -57.85px;
+	background: #313534;
+	border-radius: 50%;
+	height: 11px;
+	width: 11px;
+	content: "";
+	top: 5px;
+}
+
+/*Mobile Sizing/////////////////////////////////////////////////////*/
+
+@media only screen and (max-width: 714px) 
+{
+	p.Hist_Head 
+	{
+		text-indent: 0px; /*spacing*/
+	}
+	ul.Hist_Sub 
+	{
+		padding-left : 30px;
+		padding-right : 30px;
+	}
+	.history h2 
+	{
+		padding-top: 10px;
+		/*border: 1px solid red;*/
+	}
+	.history h3,h6 
+	{
+		padding-top: 10px;
+		/*border: 1px solid red;*/
+	}
+	.history p 
+	{
+		padding-left : 20px;
+		padding-right : 20px;
+	}
+	
+	.timeline .event:before /*year*/
+	{ 
+		left: -185px;
+	}
+	
+	img.MediaIMG 
+	{
+		width : 300%;
+		height : 100px;
+		padding-bottom : 10px;
+		
+	}
+	.MEDIAcolumn 
+	{
+		float: left;
+		padding : 0px;
+	}
+	li 
+	{
+		text-align: left;
+		margin: 10px 0px;
+	}
+	p.TLP
+	{
+		display : none; /*too long*/
+	}
+	
+  
+}
+
+/*In Progress //////////////////////////////////////////////////////*/
+
+/*Extra or Maybe Important Code//////////////////////////////////////////////////*/
+/** {
   box-sizing: border-box;
 }
 html,body {
@@ -9,208 +330,5 @@ html,body {
   height: 100%;
   margin: 0;
   
-} 
+} */
 
-a {
-  color: #2f2c2c;
-}
-
-.container {
-  max-width: 1024px;
-  margin: 0 auto;
-  text-align: center;
-}
-
-.history {
-  background-image: url("../assets/img/parched.jpg");
-  background-repeat: repeat-y;
-  color: black;
-  font-size: calc(12px + 0.5vw);
-  font-family: 'Open Sans', sans-serif;
-  margin-top: 20px;
-}
-
-.history p {
-  width: 100%;
-  position: static;
-  padding: 20px;
-}
-
-.history ul {
-  width: 90%;
-  position: relative;
-  left: 5%;
-  padding-bottom: 10px;
-}
-
-li {
-  text-align: left;
-}
-
-.history h2 {
-  padding-top: 50px;
-  color: black;
-  font-family: 'Cedarville Cursive', cursive;
-  font-size: calc(18px + 1vw);
-}
-
-.history h3 {
-  padding-top: 30px;
-  color: black;
-  font-family: 'Cedarville Cursive', cursive;
-  font-size: calc(16px + 0.75vw);
-}
-
-.history img {
-  width: 100%;
-  margin: 30px auto;
-}
-
-.history ul:last-of-type {
-  padding-bottom: 50px;
-}
-
-/* Fk care all the timeline css for now. */
-
-.timeline * {
-  font-family: 'Open Sans', sans-serif;
-  color: #FFF;
-}
-
-.timeline {
-  width: 100%;
-  padding: 20px;
-  position:relative;
-  box-sizing: border-box;
-  background: #666;
-  max-width: 800px;
-  margin: 10px auto;
-  box-shadow: 0px 1px 2px 2px rgba(0,120,210, 0.1);
-}
-
-.timeline:before {
-  position: absolute;
-  width: 4px;
-  height: calc(100% - 40px);
-  background: #86bc1c;
-  content: "";
-  left: calc(80% - 14px);
-  box-shadow: 0px 0px 2px 2px rgba(0,0,0, 0.2);
-}
-.timeline-title {
-  font-size: 1.5em;
-  font-weight: bold;
-  
-}
-.timeline-content {
-  width: calc(80% - 70px);
-  padding: 20px;
-  background: rgb(0, 119, 199);
-  position: relative;
-  left: 20px;
-  min-height: 100px; 
-  border-radius: 10px;
-  margin-top: 10px;
-  box-shadow: 0px 0px 2px 2px rgba(0,0,0, 0.2);
-}
-.timeline-content:before {
-  width: 20px;
-  height: 20px;
-  content: "";
-  text-align: center;
-  font-weight: bold;
-  background: #86bc1c;
-  position: absolute;
-  right: -60px;
-  border-radius: 50%;
-  top: calc(50% - 10px);
-  box-sizing: border-box;
-  box-shadow: 0px 0px 2px 2px rgba(0,0,0, 0.2);
-}
-
-.timeline-content:after {
-  content: "";
-  left: 100%;
-  width: 50px;
-  border-top: 2px dashed #86bc1c;
-  position: absolute;
-  top: calc(50% - 1px);
-}
-.timeline-period {
-  left: calc(100% + 70px);
-  position: absolute;
-  display: inline-block;
-  background: rgb(210, 50, 30);
-  padding: 10px;
-  white-space: nowrap;
-  border-radius: 10px;
-  top: calc(50% - 19px);
-  font-style: italic;
-  font-size: 0.9em;
-  font-weight: bold;
-  color: #EEE;
-  box-shadow: 0px 0px 2px 2px rgba(0,0,0, 0.2);
-}
-.timeline-period:before {
-  content: "";
-  left: -12px;
-  width: 6px;
-  border: 6px dashed transparent;
-  position: absolute;
-  top: calc(50% - 6px);
-  border-right: 6px solid rgb(210, 50, 30);
-}
-
-/* just add this class to hide an element */
-.hide {
-  display: none;
-}
-
-@media screen and (min-width: 1024px) {
-  .timeline-content:nth-child(even) {
-    left: calc(50% + 50px); 
-  }
-  .timeline-content:nth-child(even):before {
-    right: auto;
-    left: -60px;
-  }
-  .timeline-content:nth-child(even):after {
-    right: auto;
-    left: -50px;
-  }
-  .timeline-content:nth-child(even) .timeline-period {
-    right: calc(100% + 70px);
-    left: auto;
-  }
-
-  .timeline-content:nth-child(even) .timeline-period:before {
-    left: 100%;
-    border-right-color: transparent;
-    border-left-color: #FFF;
-  }
-  .timeline-content {
-    width: calc(50% - 70px);
-  }
-  
-  .timeline:before {
-    left: calc(50% - 2px);
-  }
-
-  .history p {
-    width: 90%;
-    left: 5%;
-    position: relative;
-  }
-
-  .history ul {
-    width: 80%;
-    position: relative;
-    left: 10%;
-    padding-bottom: 10px;
-  }
-  
-  .history img {
-    width: 90%;
-    margin: 30px auto;
-  }
-}
