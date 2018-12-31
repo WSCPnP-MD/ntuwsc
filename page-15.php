@@ -14,7 +14,7 @@ get_header(); ?>
         <div class="filter-buttons">
             <button id="getRSP">Regular Service Projects</button>
             <button id="getSP">Special Projects</button>
-            <button id="getSC">Special Committees</button>
+            <button id="getSC">Supporting Committees</button>
             <button id="getAll">All</button>
         </div>
         <div class="grid">

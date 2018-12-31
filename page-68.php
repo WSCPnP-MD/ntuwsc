@@ -317,7 +317,7 @@ get_header(); ?>
 								<div class="holder-info"> 
 									<figcaption class="holder-name">R Gandharuban</figcaption>
 									<figcaption class="holder-title">Chairperson</figcaption>
-									<figcaption class="holder-portfolio">Challenge UR Limits</figcaption>
+									<figcaption class="holder-portfolio">Challenge ur Limits</figcaption>
 									<div class="mail-icon">
 										<a href="mailto:wsc-curl@e.ntu.edu.sg">
 											<div class="mail-link">
@@ -535,7 +535,7 @@ get_header(); ?>
 								<div class="holder-info"> 
 									<figcaption class="holder-name">Lee Zi Xuan</figcaption>
 									<figcaption class="holder-title">Chairperson</figcaption>
-									<figcaption class="holder-portfolio">Challenge UR Limits</figcaption>
+									<figcaption class="holder-portfolio">Challenge ur Limits</figcaption>
 								</div>
 							</figure>
 							<figure class="item" id="cor">

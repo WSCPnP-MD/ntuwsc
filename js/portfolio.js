@@ -130,7 +130,7 @@
 					}
 					case 'curl':
 					{
-						updateInfoText("Challengeur Limits",
+						updateInfoText("Challenge ur Limits",
 						"Founded in 2002, Challenge ur Limits (CurL) is a special project, which organises events that allow beneficiaries with various special needs, student volunteers and members of the public to participate in physically and mentally challenging activities together. We aim to increase awareness of people with disabilities through promoting interaction between the beneficiaries and the public, and encourage society to look beyond beneficiaries’ disabilities, to see their spirit, determination and passion for life, and that they are able to also do their part for society. We hope that our events can lay the seeds of a more inclusive community, in which people will have a better understanding of the disabled. In short, CurL hopes to bring across the message that “Disability should never be equated to Disqualification”.");
 						updateContacts("https://www.facebook.com/NTUWSCCurL/");
 						break;
