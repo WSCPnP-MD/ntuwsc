@@ -22,7 +22,7 @@
                 }
 
 				.sponsor .part {
-					display: inline-block;
+					/* display: inline-block; */
 					vertical-align: middle;
 				}
 
@@ -35,7 +35,7 @@
 					background-color: lightgray;
 					border: none;
 				}
-				.portfolio {
+				.footer-portfolio {
 					left: auto;
 					right: auto;
 				}
@@ -43,7 +43,7 @@
 	</head>
 	
 	<body>
-        <div class='portfolio sponsor'>
+        <div class='footer-portfolio sponsor'>
 			<h1 id='title'><u>SPONSORS</u></h1>
 
 			<hr>
