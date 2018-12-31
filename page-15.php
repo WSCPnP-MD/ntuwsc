@@ -293,19 +293,19 @@ get_header(); ?>
             <h2>Project-Name</h2>
             <div class="owl-carousel">
                 <figure class="item" id="introPic1">
-                    <img src="../wp-content/themes/stand-out/assets/img/owl-carousel/23rd/president.jpg">
+                    <img src="">
                 </figure>
                 <figure class="item" id="introPic2">
-                    <img src="../wp-content/themes/stand-out/assets/img/owl-carousel/23rd/vp1.jpg">
+                    <img src="">
                 </figure>
                 <figure class="item" id="introPic3">
-                    <img src="../wp-content/themes/stand-out/assets/img/owl-carousel/23rd/vp2.jpg">
+                    <img src="">
                 </figure>
                 <figure class="item" id="introPic4">
-                    <img src="../wp-content/themes/stand-out/assets/img/owl-carousel/23rd/pnp.jpg">
+                    <img src="">
                 </figure>
                 <figure class="item" id="introPic5">
-                    <img src="../wp-content/themes/stand-out/assets/img/owl-carousel/23rd/pc.jpg">
+                    <img src="">    
                 </figure>
             </div>
             <div id="info">

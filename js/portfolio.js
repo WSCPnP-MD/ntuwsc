@@ -191,6 +191,7 @@
 						updateContacts("getRekt.com", "www.getRekt.com");
 					}
 				}
+				getImages(proj); //update carousel based on project
 				$('html, body').animate({
 					scrollTop: $("#info-box").offset().top
 				}, 1000);
@@ -218,10 +219,35 @@
 			}
 		}
 
+		// function for updating images for the portfolio
+		function getImages(portfolio) {
+			$.ajax({
+				type : "GET",  //type of method
+				url  : "../portfolio-image-endpoint/" + "?" + "genre=" + portfolio,
+				success: function(res){  
+							var images = res.split(",");
+							var containersParent = $(".owl-carousel .item img");
+							var containers = $(".owl-carousel .item img");
+							$.each(containers, function(k, v)  {
+								if (images[k])
+								{
+									v.src = "../wp-content/themes/stand-out/assets/img/\
+									portfolio-page-image-showcase/"+portfolio+"/"+images[k];
+								}
+								else {
+									v.src = "../wp-content/themes/stand-out/assets/img/\
+									portfolio-page-image-showcase/default/placeholder.jpg";
+								}
+							});
+						}
+			});
+		}
+
 		var owl = $('.owl-carousel');
 		owl.owlCarousel({
 			items:1,
-			loop:true,
+			loop: false,
+			rewind: true,
 			margin:5,
 			autoplay:true,
 			autoplayTimeout:3000,
