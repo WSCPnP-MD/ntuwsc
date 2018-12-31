@@ -10,7 +10,8 @@ if ( ! defined( 'ABSPATH' ) ) exit;
 
 get_header(); ?>
 
-<!-- TODO: update the magazine upload -->
-		<iframe class="single" src="//e.issuu.com/embed.html#11462335/63423257" frameborder="0" allowfullscreen></iframe>
-	    <iframe class="double" src="//e.issuu.com/embed.html#11462335/63423245" frameborder="0" allowfullscreen></iframe>
+		<!-- class single is for mobile, double for computers-->
+		<iframe class="single" src="//e.issuu.com/embed.html#11462335/66612881" frameborder="0" allowfullscreen></iframe>
+	    <iframe class="double" src="//e.issuu.com/embed.html#11462335/66612857" frameborder="0" allowfullscreen></iframe>
+
 <?php get_footer(); ?>
