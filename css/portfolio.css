@@ -44,6 +44,7 @@ body {
   font-style: normal;
   -webkit-transition: all 0.3s; /* Safari */
   transition: all 0.3s;
+  background: #ccc;
   /* box-shadow: 1px 2px 1px; */
 }
 
