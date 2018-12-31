@@ -288,7 +288,32 @@ get_header(); ?>
             </div>
         </div>
         <div id="info-box">
-            sample
+            <h2>Project-Name</h2>
+            <div class="owl-carousel">
+                <figure class="item" id="introPic1">
+                    <img src="">
+                </figure>
+                <figure class="item" id="introPic2">
+                    <img src="">
+                </figure>
+                <figure class="item" id="introPic3">
+                    <img src="">
+                </figure>
+                <figure class="item" id="introPic4">
+                    <img src="">
+                </figure>
+                <figure class="item" id="introPic5">
+                    <img src="">    
+                </figure>
+            </div>
+            <div id="info">
+                <!-- info gets updated using javascript -->
+                <p> Insert some stuff here </p>
+                <div id="contact-buttons">
+                    <a id="fb"><i class="fa fa-facebook-square"></i></a>
+                    <a id="website"><i class="fa fa-globe"></i></a>
+                </div>
+            </div>
         </div>
     </div>
 	    
