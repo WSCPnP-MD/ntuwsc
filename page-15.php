@@ -11,10 +11,12 @@ if ( ! defined( 'ABSPATH' ) ) exit;
 get_header(); ?>
 
     <div class="container">
-        <button id="getRSP">RSPs</button>
-        <button id="getSP">SPs</button>
-        <button id="getSC">SCs</button>
-        <button id="getAll">All</button>
+        <div class="filter-buttons">
+            <button id="getRSP">Regular Service Projects</button>
+            <button id="getSP">Special Projects</button>
+            <button id="getSC">Special Committees</button>
+            <button id="getAll">All</button>
+        </div>
         <div class="grid">
             <div id="vh" class="box RSP" >
                 <div class="box__right">

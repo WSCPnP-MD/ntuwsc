@@ -195,8 +195,10 @@
 				$('html, body').animate({
 					scrollTop: $("#info-box").offset().top
 				}, 1000);
+				$("#info-box").css('visibility', 'visible');
 			});
 		});
+
 		function updateInfoText(header, text) {
 			$("#info-box h2").text(header);
 			$("#info p").html(text);
