@@ -267,6 +267,21 @@ get_header(); ?>
 									</div>
 								</div>
 							</figure>
+							<figure class="item" id="oh">
+								<img src="../wp-content/themes/stand-out/assets/img/owl-carousel/24th/oh.jpg">
+								<div class="holder-info"> 
+									<figcaption class="holder-name">Smeetha Nair</figcaption>
+									<figcaption class="holder-title">Chairperson</figcaption>
+									<figcaption class="holder-portfolio">RSP (Operation Hope)</figcaption>
+									<div class="mail-icon">
+										<a href="mailto:wsc-rspoh@e.ntu.edu.sg">
+											<div class="mail-link">
+												<i class="fa fa-envelope-o" aria-hidden="true"></i>
+											</div>
+										</a>
+									</div>
+								</div>
+							</figure>
 							<figure class="item" id="pc">
 								<img src="../wp-content/themes/stand-out/assets/img/owl-carousel/24th/pc.jpg">
 								<div class="holder-info"> 
@@ -317,7 +332,7 @@ get_header(); ?>
 								<div class="holder-info"> 
 									<figcaption class="holder-name">R Gandharuban</figcaption>
 									<figcaption class="holder-title">Chairperson</figcaption>
-									<figcaption class="holder-portfolio">Challenge UR Limits</figcaption>
+									<figcaption class="holder-portfolio">Challenge ur Limits</figcaption>
 									<div class="mail-icon">
 										<a href="mailto:wsc-curl@e.ntu.edu.sg">
 											<div class="mail-link">
@@ -350,21 +365,6 @@ get_header(); ?>
 									<figcaption class="holder-portfolio">Ignite Change</figcaption>
 									<div class="mail-icon">
 										<a href="mailto:wsc-igc@e.ntu.edu.sg">
-											<div class="mail-link">
-												<i class="fa fa-envelope-o" aria-hidden="true"></i>
-											</div>
-										</a>
-									</div>
-								</div>
-							</figure>
-							<figure class="item" id="oh">
-								<img src="../wp-content/themes/stand-out/assets/img/owl-carousel/24th/oh.jpg">
-								<div class="holder-info"> 
-									<figcaption class="holder-name">Smeetha Nair</figcaption>
-									<figcaption class="holder-title">Chairperson</figcaption>
-									<figcaption class="holder-portfolio">Operation Hope</figcaption>
-									<div class="mail-icon">
-										<a href="mailto:wsc-rspoh@e.ntu.edu.sg">
 											<div class="mail-link">
 												<i class="fa fa-envelope-o" aria-hidden="true"></i>
 											</div>
@@ -535,7 +535,7 @@ get_header(); ?>
 								<div class="holder-info"> 
 									<figcaption class="holder-name">Lee Zi Xuan</figcaption>
 									<figcaption class="holder-title">Chairperson</figcaption>
-									<figcaption class="holder-portfolio">Challenge UR Limits</figcaption>
+									<figcaption class="holder-portfolio">Challenge ur Limits</figcaption>
 								</div>
 							</figure>
 							<figure class="item" id="cor">
