@@ -9,39 +9,25 @@
 if ( ! defined( 'ABSPATH' ) ) exit;
 
 get_header(); ?>
-		<style>
-			@media screen and (min-width: 1024px) {
-				iframe {
-					width:100%; 
-					height:90vh; 
-					border:2;
-				}
-			}
-			@media screen and (max-width: 1024px) {
-				iframe {
-					position: absolute;
-					display: block;
-					width:100%; 
-					height:100%; 
-					border:none;
-					padding-left:50px;
-					left:auto;
-					right:auto;
-				}
-				.sponsor, footer {
-					position: relative;
-					top: 1000px;
-				}
-			}
-		</style>
 
 		<div id="content">
-			<iframe src="https://drive.google.com/embeddedfolderview?id=0BxPBcdTtdrNhWE5Mb2tQbDk3ZHc#grid"></iframe>
-<!--		<h1><u>17th Executive Committee</u></h1>
-            <iframe src="https://drive.google.com/embeddedfolderview?id=0BxPBcdTtdrNhRUViR0xYNVR6RzQ#grid" style="width:100%; height:90vh; border:2;"></iframe>
-		<h1><u>18th Executive Committee</u></h1>
-		<iframe src="https://drive.google.com/embeddedfolderview?id=0BxPBcdTtdrNhTE93eTlBOG0wTVU#grid" style="width:100%; height:90vh; border:2;"></iframe>
-		-->
+			<h1 style="color:white; padding-top:20px; padding-left:60px;"><u><b>24th Exco</b></u><h1>
+            <iframe src="https://drive.google.com/embeddedfolderview?id=1hXld2MLnDNDAY-NG4GOXsL2DS-31Zl32#grid" scrolling="no" style="width:100%; height:65vh; border:2; overflow:hidden;"></iframe>
+		</div>
+
+		<div id="content">
+		<h1 style="color:white; padding-top:20px; padding-left:60px;"><u><b>23rd Exco</b></u><h1>
+			<iframe src="https://drive.google.com/embeddedfolderview?id=0Bwd-OADPSHINQ3lpZ2tSeFllUkE#grid" scrolling="no" style="width:100%; height:65vh; border:2; overflow:hidden;"></iframe>
+		</div>
+
+		<div id="content">
+		<h1 style="color:white; padding-top:20px; padding-left:60px;"><u><b>22nd Exco</b></u><h1>
+			<iframe src="https://drive.google.com/embeddedfolderview?id=0B1Ycvr2lY3mjNUQyOU5jQm5WZ28#grid" scrolling="no" style="width:100%; height:65vh; border:2; overflow:hidden;"></iframe>
+		</div>
+
+		<div id="content">
+		<h1 style="color:white; padding-top:20px; padding-left:60px;"><u><b>21st Exco</b></u><h1>
+			<iframe src="https://drive.google.com/embeddedfolderview?id=0BxPBcdTtdrNhaEdnWkNGNkpnS2c#grid" scrolling="no" style="width:100%; height:65vh; border:2; overflow:hidden;"></iframe>
 		</div>
 	    
 <?php get_footer(); ?>
