@@ -38,7 +38,7 @@ get_header(); ?>
 
 						<ul class="timeline">
 							<li class="event" data-date="1985">
-								<h5>(SC) PnP*</h5>
+								<h5>(SC) PnP</h5>
 
 								<p  class = "TLP"><img class = "thumbnailIMG"  src="../wp-content/themes/stand-out/assets/img/sc-logos/pnp.jpg" alt="Image of PnP* Logo" style = "width:100px;height:100px;margin-right:15px"><span class="caption">Publicity and Publication (PNP) publicise the Club’s activities through the boundless realm of the internet and provide technical support in the field of media productions.</span>
 								</p>
@@ -50,7 +50,7 @@ get_header(); ?>
 							</li>
 
 							<li class="event" data-date="1987">
-								<h5>(SC) Finance*</h5>
+								<h5>(SC) Finance</h5>
 								<p class = "TLP"><img class = "thumbnailIMG"  src="../wp-content/themes/stand-out/assets/img/sc-logos/fincomm.jpg" alt="Image of Finance* Logo" style = "width:100px;height:100px;margin-right:15px"><span class="caption"> Finance Committee (FINCOMM) are responsible for the formulation of budgets, setting standards of reimbursement and preparation of financial statements that reflect a true and fair view.</span>
 								</p>    
 							</li>
