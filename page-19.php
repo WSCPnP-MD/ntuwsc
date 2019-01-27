@@ -9,15 +9,15 @@
 if ( ! defined( 'ABSPATH' ) ) exit;
 
 get_header(); ?>
-	<!--<br>-->
+	<br>
 	<div class="container">
 		<div class="title-contact">Contact Us</div>
 		<div class="row">
-			<!--<div class="column-2 divider-w">
-				Map
+			<div class="column-2 divider-w">
+				<!--Map-->
 				<div id="map" class="map"></div>
 				<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDqpwZMcidGyRiv7b0xAh51_2ZDoSMhs8s&callback=myMap"></script>
-			</div>-->
+			</div>
 			<div class="column-2">
 			<!--fa-2x-->
 						<a class="fab fa-facebook" href="https://www.facebook.com/ntuwsc/" target="_blank" ></a>
@@ -36,5 +36,5 @@ get_header(); ?>
 			</div>
 		</div>
 	</div>
-	   <!--<br>-->
+	   <br>
 <?php get_footer(); ?>
