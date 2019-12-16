@@ -30,7 +30,7 @@
 					/* Regular service projects */
 					case 'vh':
 					{
-						updateInfoText("RSP (Visually Handicapped)","RSP (Youth) was set up in 1996 to provide an avenue for NTU students to befriend and volunteer with the Youth-at-risk and underprivileged youth.  /<br><br>/RSP (Youth) collaborates with various service organisations (Ministry of Social and Family Development, Singapore Children Society, Sport Singapore, Family Services Centres etc.) to engage and inspire teenagers to be better people and learn to overcome various difficulties faced in their lives.  /<br><br>/The objective of RSP (Youth) is to be \"A Friend, A Teacher, A Mentor\" to the youths we support."
+						updateInfoText("RSP (Visually Handicapped)","Established in 2002, RSP (Visually Handicapped) seeks to reach out to the Visually Handicapped community through our collaboration with the Singapore Association of the Visually Handicapped (SAVH). We focus on giving aid and befriending Visually Handicapped beneficiaries of all ages and motivating them to excel in their pursuits. We provide tuition services and conversational language classes for our beneficiaries from all walks of life, during our regular sessions, to empower and instill confidence in them. We also hope to create lasting and wonderful memories with them, through special events such as Eye Am Aware, as well as celebrations."
 						);
 						updateContacts({'fb':"https://www.facebook.com/WSC.RSPVH/", 'instagram':"https://www.instagram.com/ntuwsc_rspvh/"}
 						);
