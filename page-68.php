@@ -15,6 +15,7 @@ get_header(); ?>
 		<div class="container">
 			<div class="extra-navigator">
 				<select class="committee-select">
+					<option value="25">25th Executive Committee</option>
 					<option value="24">24th Executive Committee</option>
 					<option value="23">23rd Executive Committee</option>
 					<option value="22">22nd Executive Committee</option>
@@ -27,6 +28,14 @@ get_header(); ?>
 				<div class="left-column">
 					<div class="committee-menu">
 						<ul>
+							<li id="25th" class="selected">
+								<a>
+									<figure>
+										<img src="../wp-content/themes/stand-out/assets/img/25th-exco.jpg">
+										<figcaption>25th Executive Committee</figcaption>							
+									</figure>
+								</a>
+							</li>
 							<li id="24th" class="selected">
 								<a>
 									<figure>
@@ -70,6 +79,347 @@ get_header(); ?>
 						</ul>
 					</div>
 				</div>
+				<!--------------------------------------------------------------------------------------------->
+
+				<div class="right-column">
+					<img id="main-image" src="../wp-content/themes/stand-out/assets/img/25th-exco.jpg">
+					<div class="wrapper">
+						<div class="owl-carousel owl-theme" id="25th-carousel">
+						<figure class="item" id="president">
+								<img src="../wp-content/themes/stand-out/assets/img/owl-carousel/25th/president.jpg">
+								<div class="holder-info"> 
+									<figcaption class="holder-name">Iswari Joyce Kaliappan</figcaption>
+									<figcaption class="holder-title">President</figcaption>
+									
+									<div class="mail-icon">
+										<a href="mailto:wsc-president@e.ntu.edu.sg">
+											<div class="mail-link">
+												<i class="fa fa-envelope-o" aria-hidden="true"></i>
+											</div>
+										</a>
+									</div>
+									
+								</div>
+							</figure>
+							<figure class="item" id="vp1">
+								<img src="../wp-content/themes/stand-out/assets/img/owl-carousel/25th/vp1.jpg">
+								<div class="holder-info"> 
+									<figcaption class="holder-name">Johan Ng Choon Herng</figcaption>
+									<figcaption class="holder-title">Vice President</figcaption>
+
+									<div class="mail-icon">
+										<a href="mailto:wsc-vicepresident1@e.ntu.edu.sg">
+											<div class="mail-link">
+												<i class="fa fa-envelope-o" aria-hidden="true"></i>
+											</div>
+										</a>
+									</div>
+								</div>
+							</figure>
+							<figure class="item" id="vp2">
+								<img src="../wp-content/themes/stand-out/assets/img/owl-carousel/25th/vp2.jpg">
+								<div class="holder-info"> 
+									<figcaption class="holder-name">Smeetha Nair</figcaption>
+									<figcaption class="holder-title">Vice President</figcaption>
+									<div class="mail-icon">
+										<a href="mailto:wsc-vicepresident2@e.ntu.edu.sg">
+											<div class="mail-link">
+												<i class="fa fa-envelope-o" aria-hidden="true"></i>
+											</div>
+										</a>
+									</div>
+								</div>
+							</figure>
+							<figure class="item" id="hongensec">
+								<img src="../wp-content/themes/stand-out/assets/img/owl-carousel/25th/hongensec.jpg">
+								<div class="holder-info"> 
+									<figcaption class="holder-name">Nadiya Nesseer</figcaption>
+									<figcaption class="holder-title">Honorary General Secretary</figcaption>
+									<div class="mail-icon">
+										<a href="mailto:wsc-hongensec@e.ntu.edu.sg">
+											<div class="mail-link">
+												<i class="fa fa-envelope-o" aria-hidden="true"></i>
+											</div>
+										</a>
+									</div>
+								</div>
+							</figure>
+							<figure class="item" id="honfinsec">
+								<img src="../wp-content/themes/stand-out/assets/img/owl-carousel/25th/honfinsec.jpg">
+								<div class="holder-info"> 
+									<figcaption class="holder-name">Ng Wee Hau, Zaphyr</figcaption>
+									<figcaption class="holder-title">Honorary Financial Secretary</figcaption>
+									<div class="mail-icon">
+										<a href="mailto:wsc-honfinsec@e.ntu.edu.sg">
+											<div class="mail-link">
+												<i class="fa fa-envelope-o" aria-hidden="true"></i>
+											</div>
+										</a>
+									</div>
+								</div>
+							</figure>
+							<figure class="item" id="go">
+								<img src="../wp-content/themes/stand-out/assets/img/owl-carousel/25th/go.jpg">
+								<div class="holder-info"> 
+									<figcaption class="holder-name">Cheryl Choo Pei Lin</figcaption>
+									<figcaption class="holder-title">Chairperson</figcaption>
+									<figcaption class="holder-portfolio">Growth and Opportunities!</figcaption>
+									<div class="mail-icon">
+										<a href="mailto:wsc-go@e.ntu.edu.sg">
+											<div class="mail-link">
+												<i class="fa fa-envelope-o" aria-hidden="true"></i>
+											</div>
+										</a>
+									</div>
+								</div>
+							</figure>
+							<figure class="item" id="ir">
+								<img src="../wp-content/themes/stand-out/assets/img/owl-carousel/25th/ir.jpg">
+								<div class="holder-info"> 
+									<figcaption class="holder-name">Muhammad Teo Luqman</figcaption>
+									<figcaption class="holder-title">Chairperson</figcaption>
+									<figcaption class="holder-portfolio">Internal Relations</figcaption>
+									<div class="mail-icon">
+										<a href="mailto:wsc-ir@e.ntu.edu.sg">
+											<div class="mail-link">
+												<i class="fa fa-envelope-o" aria-hidden="true"></i>
+											</div>
+										</a>
+									</div>
+								</div>
+							</figure>	
+							<figure class="item" id="pnp">
+								<img src="../wp-content/themes/stand-out/assets/img/owl-carousel/25th/pnp.jpg">
+								<div class="holder-info"> 
+									<figcaption class="holder-name">Jessie Tan Huixian</figcaption>
+									<figcaption class="holder-title">Chairperson</figcaption>
+									<figcaption class="holder-portfolio">Publicity and Publications</figcaption>
+									<div class="mail-icon">
+										<a href="mailto:wsc-pnp@e.ntu.edu.sg">
+											<div class="mail-link">
+												<i class="fa fa-envelope-o" aria-hidden="true"></i>
+											</div>
+										</a>
+									</div>
+								</div>
+							</figure>
+							<figure class="item" id="dc">
+								<img src="../wp-content/themes/stand-out/assets/img/owl-carousel/25th/dc.jpg">
+								<div class="holder-info"> 
+									<figcaption class="holder-name">Nurhidayah Bte Yazid</figcaption>
+									<figcaption class="holder-title">Chairperson</figcaption>
+									<figcaption class="holder-portfolio">RSP (Deaf Community)</figcaption>
+									<div class="mail-icon">
+										<a href="mailto:wsc-rspdc@e.ntu.edu.sg">
+											<div class="mail-link">
+												<i class="fa fa-envelope-o" aria-hidden="true"></i>
+											</div>
+										</a>
+									</div>
+								</div>
+							</figure>
+							<figure class="item" id="elders">
+								<img src="../wp-content/themes/stand-out/assets/img/owl-carousel/25th/elders.jpg">
+								<div class="holder-info"> 
+									<figcaption class="holder-name">Chua Shu Fen</figcaption>
+									<figcaption class="holder-title">Chairperson</figcaption>
+									<figcaption class="holder-portfolio">RSP (Elders)</figcaption>
+									<div class="mail-icon">
+										<a href="mailto:wsc-rspelders@e.ntu.edu.sg">
+											<div class="mail-link">
+												<i class="fa fa-envelope-o" aria-hidden="true"></i>
+											</div>
+										</a>
+									</div>
+								</div>
+							</figure>
+							<figure class="item" id="foc">
+								<img src="../wp-content/themes/stand-out/assets/img/owl-carousel/25th/foc.jpg">
+								<div class="holder-info">
+									<figcaption class="holder-name">Alexis Ong En Na</figcaption>
+									<figcaption class="holder-title">Chairperson</figcaption>
+									<figcaption class="holder-portfolio">RSP (Friends of Children)</figcaption>
+									<div class="mail-icon">
+										<a href="mailto:wsc-rspfoc@e.ntu.edu.sg">
+											<div class="mail-link">
+												<i class="fa fa-envelope-o" aria-hidden="true"></i>
+											</div>
+										</a>
+									</div>
+								</div>
+							</figure>
+							<figure class="item" id="id">
+								<img src="../wp-content/themes/stand-out/assets/img/owl-carousel/25th/id.jpg">
+								<div class="holder-info"> 
+									<figcaption class="holder-name">Ong Ren Xian</figcaption>
+									<figcaption class="holder-title">Chairperson</figcaption>
+									<figcaption class="holder-portfolio">RSP (Intellectually Disabled)</figcaption>
+									<div class="mail-icon">
+										<a href="mailto:wsc-rspid@e.ntu.edu.sg">
+											<div class="mail-link">
+												<i class="fa fa-envelope-o" aria-hidden="true"></i>
+											</div>
+										</a>
+									</div>
+								</div>
+							</figure>
+							<figure class="item" id="mh">
+								<img src="../wp-content/themes/stand-out/assets/img/owl-carousel/25th/mh.jpg">
+								<div class="holder-info"> 
+									<figcaption class="holder-name">Tsaur Sheng Jia</figcaption>
+									<figcaption class="holder-title">Chairperson</figcaption>
+									<figcaption class="holder-portfolio">RSP (Mental Health)</figcaption>
+									<div class="mail-icon">
+										<a href="mailto:wsc-rspmh@e.ntu.edu.sg">
+											<div class="mail-link">
+												<i class="fa fa-envelope-o" aria-hidden="true"></i>
+											</div>
+										</a>
+									</div>
+								</div>
+							</figure>
+							<figure class="item" id="oh">
+								<img src="../wp-content/themes/stand-out/assets/img/owl-carousel/25th/oh.jpg">
+								<div class="holder-info"> 
+									<figcaption class="holder-name">Camilla Lim Xin Rong</figcaption>
+									<figcaption class="holder-title">Chairperson</figcaption>
+									<figcaption class="holder-portfolio">RSP (Operation Hope)</figcaption>
+									<div class="mail-icon">
+										<a href="mailto:wsc-rspoh@e.ntu.edu.sg">
+											<div class="mail-link">
+												<i class="fa fa-envelope-o" aria-hidden="true"></i>
+											</div>
+										</a>
+									</div>
+								</div>
+							</figure>
+							<figure class="item" id="pc">
+								<img src="../wp-content/themes/stand-out/assets/img/owl-carousel/25th/pc.jpg">
+								<div class="holder-info"> 
+									<figcaption class="holder-name">Shawn Tang Zhen Kee</figcaption>
+									<figcaption class="holder-title">Chairperson</figcaption>
+									<figcaption class="holder-portfolio">RSP (Physically Challenged)</figcaption>
+									<div class="mail-icon">
+										<a href="mailto:wsc-rsppc@e.ntu.edu.sg">
+											<div class="mail-link">
+												<i class="fa fa-envelope-o" aria-hidden="true"></i>
+											</div>
+										</a>
+									</div>
+								</div>
+							</figure>
+							<figure class="item" id="vh">
+								<img src="../wp-content/themes/stand-out/assets/img/owl-carousel/25th/vh.jpg">
+								<div class="holder-info"> 
+									<figcaption class="holder-name">Wong Yong</figcaption>
+									<figcaption class="holder-title">Chairperson</figcaption>
+									<figcaption class="holder-portfolio">RSP (Visually Handicapped)</figcaption>
+									<div class="mail-icon">
+										<a href="mailto:wsc-rspvh@e.ntu.edu.sg">
+											<div class="mail-link">
+												<i class="fa fa-envelope-o" aria-hidden="true"></i>
+											</div>
+										</a>
+									</div>
+								</div>
+							</figure>
+							<figure class="item" id="youth">
+								<img src="../wp-content/themes/stand-out/assets/img/owl-carousel/25th/youth.jpg">
+								<div class="holder-info"> 
+									<figcaption class="holder-name">Wilson Xu Weixuan</figcaption>
+									<figcaption class="holder-title">Chairperson</figcaption>
+									<figcaption class="holder-portfolio">RSP (Youth)</figcaption>
+									<div class="mail-icon">
+										<a href="mailto:wsc-rspyouth@e.ntu.edu.sg">
+											<div class="mail-link">
+												<i class="fa fa-envelope-o" aria-hidden="true"></i>
+											</div>
+										</a>
+									</div>
+								</div>
+							</figure>
+							<figure class="item" id="curl">
+								<img src="../wp-content/themes/stand-out/assets/img/owl-carousel/25th/curl.jpg">
+								<div class="holder-info"> 
+									<figcaption class="holder-name">Leow Tien Wee</figcaption>
+									<figcaption class="holder-title">Chairperson</figcaption>
+									<figcaption class="holder-portfolio">Challenge ur Limits</figcaption>
+									<div class="mail-icon">
+										<a href="mailto:wsc-curl@e.ntu.edu.sg">
+											<div class="mail-link">
+												<i class="fa fa-envelope-o" aria-hidden="true"></i>
+											</div>
+										</a>
+									</div>
+								</div>
+							</figure>
+							<figure class="item" id="cor">
+								<img src="../wp-content/themes/stand-out/assets/img/owl-carousel/25th/cor.jpg">
+								<div class="holder-info"> 
+									<figcaption class="holder-name">Jan Paolo Macapinlac Balagtas</figcaption>
+									<figcaption class="holder-title">Chairperson (Acting)</figcaption>
+									<figcaption class="holder-portfolio">Camp OutReach</figcaption>
+									<div class="mail-icon">
+										<a href="mailto:wsc-cor@e.ntu.edu.sg">
+											<div class="mail-link">
+												<i class="fa fa-envelope-o" aria-hidden="true"></i>
+											</div>
+										</a>
+									</div>
+								</div>
+							</figure>
+							<figure class="item" id="igc">
+								<img src="../wp-content/themes/stand-out/assets/img/owl-carousel/25th/igc.jpg">
+								<div class="holder-info"> 
+									<figcaption class="holder-name">Janani D/O Tharrmaraja</figcaption>
+									<figcaption class="holder-title">Chairperson</figcaption>
+									<figcaption class="holder-portfolio">Ignite Change</figcaption>
+									<div class="mail-icon">
+										<a href="mailto:wsc-igc@e.ntu.edu.sg">
+											<div class="mail-link">
+												<i class="fa fa-envelope-o" aria-hidden="true"></i>
+											</div>
+										</a>
+									</div>
+								</div>
+							</figure>
+							<figure class="item" id="ove">
+								<img src="../wp-content/themes/stand-out/assets/img/owl-carousel/25th/ove.jpg">
+								<div class="holder-info"> 
+									<figcaption class="holder-name">Ho Zong Jin</figcaption>
+									<figcaption class="holder-title">Chairperson</figcaption>
+									<figcaption class="holder-portfolio">Overseas Volunteering Expedition</figcaption>
+									<div class="mail-icon">
+										<a href="mailto:wsc-ove@e.ntu.edu.sg">
+											<div class="mail-link">
+												<i class="fa fa-envelope-o" aria-hidden="true"></i>
+											</div>
+										</a>
+									</div>
+								</div>
+							</figure>
+							<figure class="item" id="vm">
+								<img src="../wp-content/themes/stand-out/assets/img/owl-carousel/25th/vm.jpg">
+								<div class="holder-info"> 
+									<figcaption class="holder-name">Ellie Lew Yi Ting</figcaption>
+									<figcaption class="holder-title">Chairperson</figcaption>
+									<figcaption class="holder-portfolio">Volunteer Management</figcaption>
+									<div class="mail-icon">
+										<a href="mailto:wsc-vm@e.ntu.edu.sg">
+											<div class="mail-link">
+												<i class="fa fa-envelope-o" aria-hidden="true"></i>
+											</div>
+										</a>
+									</div>
+								</div>
+							</figure>
+
+						</div>
+
+
+
+
+				<!--------------------------------------------------------------------------------------------->
 				<div class="right-column">
 					<img id="main-image" src="../wp-content/themes/stand-out/assets/img/24th-exco.jpg">
 					<div class="wrapper">
