@@ -2,6 +2,25 @@
 
 
     $(document).ready(function() {
+        $("#25th-carousel").owlCarousel({
+            loop:true,
+            margin:10,
+            nav:false,
+            autoplay:1000,
+            responsive:{
+                0:{
+                    items:1
+                },
+                600:{
+                    items:1
+                },
+                1000:{
+                    items:2
+                }
+            },
+            dots: false
+        });
+
         $("#24th-carousel").owlCarousel({
             loop:true,
             margin:10,
@@ -41,6 +60,11 @@
         });
         $("#23rd-carousel").hide();
         
+        $("#25th").click(function() {
+            $("#main-image").attr("src", "../wp-content/themes/stand-out/assets/img/25th-exco.jpg");
+            hideCarousel();
+            $("#25th-carousel").show();
+        });
         $("#24th").click(function() {
             $("#main-image").attr("src", "../wp-content/themes/stand-out/assets/img/24th-exco.jpg");
             hideCarousel();
@@ -92,6 +116,12 @@
         /* For Mobile navigation */
         $( ".committee-select" ).change(function() {
             switch ($(this).val()) {
+                case '25': {
+                    $("#main-image").attr("src", "../wp-content/themes/stand-out/assets/img/25th-exco.jpg");
+                    hideCarousel();
+                    $("#25th-carousel").show();
+                    break;
+                }
                 case '24': {
                     $("#main-image").attr("src", "../wp-content/themes/stand-out/assets/img/24th-exco.jpg");
                     hideCarousel();
@@ -126,6 +156,7 @@
 
     /* This page has an Owl Carousel. These functions are an alias for showing and hiding them. Doesn't help much in terms of refactoring, but good for readability.*/
     function hideCarousel() {
+        $("#25th-carousel").hide(); 
         $("#24th-carousel").hide(); 
         $("#23rd-carousel").hide();
     }
