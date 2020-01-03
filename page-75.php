@@ -10,8 +10,9 @@ if ( ! defined( 'ABSPATH' ) ) exit;
 
 get_header(); ?>
 	<!-- COMMENT: FIND THE NEXT COMMENT (ie. /* */) BELOW (WITHIN THE SCRIPT TAG) AND IT WILL TELL YOU WHERE AND WHAT TO EDIT-->
+	<!--
 		<script>
-			/*function ordinal_suffix_of(i) {
+			function ordinal_suffix_of(i) {
 				var j = i % 10,
 					k = i % 100;
 				if (j == 1 && k != 11) {
@@ -30,10 +31,10 @@ get_header(); ?>
 				//@@@@@@@@@@@@@@@@@@HERE@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 				/* GO INTO THE EXCO FOLDER IN MEETING MINUTES FOLDER OF GOOGLE DRIVE. 
 				   THEN FROM THE URL, TAKE THE LAST SEGMENT
-					eg. for https://drive.google.com/drive/u/0/folders/1ccbHiMyPR9Y-hsiZ-BtQRWAFf7CuYCJp --> COPY OUT 1ccbHiMyPR9Y-hsiZ-BtQRWAFf7CuYCJp.
+					eg. for https://drive.google.com/drive/u/0/folders/1ccbHiMyPR9Y-hsiZ-BtQRWAFf7CuYCJp / COPY OUT 1ccbHiMyPR9Y-hsiZ-BtQRWAFf7CuYCJp.
 				   PASTE INTO ***FRONT*** OF THE LIST (ie. var url) BELOW
 				*/
-				/*var url = [	"1ccbHiMyPR9Y-hsiZ-BtQRWAFf7CuYCJp", // <<<---- Please take note "url" variable is used in portfolio.js file
+				var url = [	"1ccbHiMyPR9Y-hsiZ-BtQRWAFf7CuYCJp", 
 						"1hXld2MLnDNDAY-NG4GOXsL2DS-31Zl32",
 						"0Bwd-OADPSHINQ3lpZ2tSeFllUkE",
 						"0B1Ycvr2lY3mjNUQyOU5jQm5WZ28",
@@ -81,6 +82,26 @@ get_header(); ?>
 			for (var i=0;i<(new Date().getFullYear()-2014);i++) {
 				createNewExco(i);
 			}*/
-		</script>
+		</script> -->
+
+		div id="content">
+		<h1 style="color:white; padding-top:20px; padding-left:60px;"><u><b>24th Exco</b></u><h1>
+            <iframe src="https://drive.google.com/embeddedfolderview?id=1hXld2MLnDNDAY-NG4GOXsL2DS-31Zl32#grid" scrolling="no" style="width:100%; height:65vh; border:2; overflow:hidden;"></iframe>
+		</div>
+
+ 		<div id="content">
+		<h1 style="color:white; padding-top:20px; padding-left:60px;"><u><b>23rd Exco</b></u><h1>
+			<iframe src="https://drive.google.com/embeddedfolderview?id=0Bwd-OADPSHINQ3lpZ2tSeFllUkE#grid" scrolling="no" style="width:100%; height:65vh; border:2; overflow:hidden;"></iframe>
+		</div>
+
+ 		<div id="content">
+		<h1 style="color:white; padding-top:20px; padding-left:60px;"><u><b>22nd Exco</b></u><h1>
+			<iframe src="https://drive.google.com/embeddedfolderview?id=0B1Ycvr2lY3mjNUQyOU5jQm5WZ28#grid" scrolling="no" style="width:100%; height:65vh; border:2; overflow:hidden;"></iframe>
+		</div>
+
+ 		<div id="content">
+		<h1 style="color:white; padding-top:20px; padding-left:60px;"><u><b>21st Exco</b></u><h1>
+			<iframe src="https://drive.google.com/embeddedfolderview?id=0BxPBcdTtdrNhaEdnWkNGNkpnS2c#grid" scrolling="no" style="width:100%; height:65vh; border:2; overflow:hidden;"></iframe>		
+		</div>
 	    
 <?php get_footer(); ?>
