@@ -84,7 +84,7 @@ get_header(); ?>
 			}*/
 		</script> -->
 
-		div id="content">
+		<div id="content">
 		<h1 style="color:white; padding-top:20px; padding-left:60px;"><u><b>24th Exco</b></u><h1>
             <iframe src="https://drive.google.com/embeddedfolderview?id=1hXld2MLnDNDAY-NG4GOXsL2DS-31Zl32#grid" scrolling="no" style="width:100%; height:65vh; border:2; overflow:hidden;"></iframe>
 		</div>
