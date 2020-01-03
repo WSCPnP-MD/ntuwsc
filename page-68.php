@@ -82,6 +82,7 @@ get_header(); ?>
 				<!--------------------------------------------------------------------------------------------->
 
 				<div class="right-column">
+					<div class="wrapper">
 					<img id="main-image" src="../wp-content/themes/stand-out/assets/img/25th-exco.jpg">
 					<div class="wrapper">
 						<div class="owl-carousel owl-theme" id="25th-carousel">
@@ -420,9 +421,7 @@ get_header(); ?>
 
 
 				<!--------------------------------------------------------------------------------------------->
-				<div class="right-column">
-					<img id="main-image" src="../wp-content/themes/stand-out/assets/img/24th-exco.jpg">
-					<div class="wrapper">
+
 						<div class="owl-carousel owl-theme" id="24th-carousel">
 						<figure class="item" id="president">
 								<img src="../wp-content/themes/stand-out/assets/img/owl-carousel/24th/president.jpg">
