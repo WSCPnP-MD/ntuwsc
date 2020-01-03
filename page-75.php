@@ -33,7 +33,7 @@ get_header(); ?>
 					eg. for https://drive.google.com/drive/u/0/folders/1ccbHiMyPR9Y-hsiZ-BtQRWAFf7CuYCJp --> COPY OUT 1ccbHiMyPR9Y-hsiZ-BtQRWAFf7CuYCJp.
 				   PASTE INTO ***FRONT*** OF THE LIST (ie. var url) BELOW
 				*/
-				var urlz = [	"1ccbHiMyPR9Y-hsiZ-BtQRWAFf7CuYCJp",
+				var urlz = [	"1ccbHiMyPR9Y-hsiZ-BtQRWAFf7CuYCJp", // <<<---- Please take note "url" variable is used in portfolio.js file
 						"1hXld2MLnDNDAY-NG4GOXsL2DS-31Zl32",
 						"0Bwd-OADPSHINQ3lpZ2tSeFllUkE",
 						"0B1Ycvr2lY3mjNUQyOU5jQm5WZ28",
