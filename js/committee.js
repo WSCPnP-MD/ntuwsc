@@ -106,11 +106,12 @@
             dots: false
         });
         $("#23rd-carousel").hide();
+        $("#24th-carousel").hide();
         
-        $("#24th").click(function() {
-            $("#main-image").attr("src", "../wp-content/themes/stand-out/assets/img/24th-exco.jpg");
+        $("#25th").click(function() {
+            $("#main-image").attr("src", "../wp-content/themes/stand-out/assets/img/25th-exco.jpg");
             hideCarousel();
-            $("#24th-carousel").show();
+            $("#25th-carousel").show();
         });
 
         /* For Mobile navigation */
