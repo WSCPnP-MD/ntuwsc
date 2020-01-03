@@ -87,7 +87,7 @@
             $("#main-image").attr("src", "../wp-content/themes/stand-out/assets/img/20th-exco.jpg");
             hideCarousel();
         });
-                $("#23rd-carousel").owlCarousel({
+           /*     $("#23rd-carousel").owlCarousel({
             loop:true,
             margin:10,
             nav:false,
@@ -104,7 +104,7 @@
                 }
             },
             dots: false
-        });
+        });*/
         $("#23rd-carousel").hide();
         $("#24th-carousel").hide();
         
