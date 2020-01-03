@@ -9,7 +9,7 @@
 if ( ! defined( 'ABSPATH' ) ) exit;
 
 get_header(); ?>
-		
+	<!-- COMMENT: FIND THE NEXT COMMENT (ie. /* */) BELOW (WITHIN THE SCRIPT TAG) AND IT WILL TELL YOU WHERE AND WHAT TO EDIT-->
 		<script>
 			function ordinal_suffix_of(i) {
 				var j = i % 10,
@@ -27,12 +27,20 @@ get_header(); ?>
 			}
 			
 			function createNewExco(i) {
+				//@@@@@@@@@@@@@@@@@@HERE@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+				/* GO INTO THE EXCO FOLDER IN MEETING MINUTES FOLDER OF GOOGLE DRIVE. 
+				   THEN FROM THE URL, TAKE THE LAST SEGMENT
+					eg. for https://drive.google.com/drive/u/0/folders/1ccbHiMyPR9Y-hsiZ-BtQRWAFf7CuYCJp --> COPY OUT 1ccbHiMyPR9Y-hsiZ-BtQRWAFf7CuYCJp.
+				   PASTE INTO ***FRONT*** OF THE LIST (ie. var url) BELOW
+				*/
 				var url = [	"1ccbHiMyPR9Y-hsiZ-BtQRWAFf7CuYCJp",
 						"1hXld2MLnDNDAY-NG4GOXsL2DS-31Zl32",
 						"0Bwd-OADPSHINQ3lpZ2tSeFllUkE",
 						"0B1Ycvr2lY3mjNUQyOU5jQm5WZ28",
 						"0BxPBcdTtdrNhaEdnWkNGNkpnS2c"];
-						
+				//THAT'S ALL.
+				//TODO: DO EXPLORE HOW TO AUTO EXTRACT THE URL FROM GOOGLE DRIVE AND INSERT INTO THE LIST SO THAT THIS PROCESS CAN BECOME DYNAMIC AND HUMAN-FREE.
+		
 				var div = document.createElement('div');
 				var dAtt1 = document.createAttribute("id");
 				dAtt1.value = "content";
@@ -71,7 +79,6 @@ get_header(); ?>
 			}
 			
 			for (var i=0;i<(new Date().getFullYear()-2014);i++) {
-				alert(new Date().getFullYear());
 				createNewExco(i);
 			}
 		</script>
