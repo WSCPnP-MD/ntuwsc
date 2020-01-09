@@ -358,7 +358,7 @@ get_header(); ?>
 								<img src="../wp-content/themes/stand-out/assets/img/owl-carousel/25th/cor.jpg">
 								<div class="holder-info"> 
 									<figcaption class="holder-name">Jan Paolo Macapinlac Balagtas</figcaption>
-									<figcaption class="holder-title">Chairperson (Acting)</figcaption>
+									<figcaption class="holder-title">Chairperson</figcaption>
 									<figcaption class="holder-portfolio">Camp OutReach</figcaption>
 									<div class="mail-icon">
 										<a href="mailto:wsc-cor@e.ntu.edu.sg">

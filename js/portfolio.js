@@ -114,7 +114,7 @@
 					}
 					case 'vm':
 					{
-						updateInfoText("Volunteer Management","VM consists of passionate, like-minded people keen to spread the spirit of volunteerism beyond Welfare Services Club. Our committee members act as agents of change, to rally NTU students as volunteers for our trademark events - Kids' World and Golden Generation. Through our annual events, we hope to provide a sustainable platform for volunteers to do community service, and allows continuous exposure to the joys of service."
+						updateInfoText("Volunteer Movement","VM consists of passionate, like-minded people keen to spread the spirit of volunteerism beyond Welfare Services Club. Our committee members act as agents of change, to rally NTU students as volunteers for our trademark events - Kids' World and Golden Generation. Through our annual events, we hope to provide a sustainable platform for volunteers to do community service, and allows continuous exposure to the joys of service."
 						);
 						updateContacts({'fb':"https://www.facebook.com/NtuWscVolunteerMovement/", 'instagram':"https://www.instagram.com/ntuwsc_vm/"}
 						);

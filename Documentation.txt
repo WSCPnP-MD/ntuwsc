@@ -1,0 +1,51 @@
+The purpose of this documentation is ease of use for future developer navigating the ambiguous files 
+This may not be the best solution but it assist new developer to certain extend
+This also serve a way for any developer to handle the task
+This documentation is fully complete
+Should there be a overhaul of website implementation this documentation will be outdated
+The instructions may not be accurate but this is the best we can do
+
+Date : 1/9/2020
+
+[How to start the task]
+[1st] assume the platform of work is on github, create your own branch/fork (may need to google how)
+[2nd] "pull" the "master" from remote github using git command depend on your IDE (may need to google how) 
+[3rd] ensure the working platform is on your own branch -> do changes on the corresponding task assigned then commit with the message of work -> push to own branch
+[4th] to merge with master, switch to master branch -> merge to the branch you want accordingly -> should there be collision resolve accordingly (may need to google on how)
+
+-------------------------------
+[How to setup local server]
+???
+
+
+Information 
+
+<Php Files> 
+[1] Page-14 (About Us -> History Page - Data and HTML Format)
+[2] Page-15 ???
+[3] Page-16 ???
+[4] Page-19 (Contact Us Page)
+[5] Page-39 (Should be Main Page) <- Need rectify
+[6] Page-68 (About Us -> Exo Comittee Page)
+[7] Page-75 (Meeting Miniute Page)
+[7] Page-101 ???
+[8] Page-105 ???
+[9] Page-107 ???
+[10] Page-165 ???
+
+
+<Css Files>  //The visual UI format of the website
+
+<js Files>  //Interactive functions
+
+To Update Data About-Us -> Portfolio data
+<File Concern>
+-- porfolio.js (Data -> Text and Images)
+
+To Update Data About-Us -> Exo Comittee
+<File Concern>
+-- committee.js (Interactive Functions)
+-- Page-68      (Text and Image File)
+
+
+*Disclaimer subject to change overtime 
