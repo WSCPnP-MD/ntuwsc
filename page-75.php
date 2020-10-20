@@ -33,7 +33,8 @@ get_header(); ?>
 					eg. for https://drive.google.com/drive/u/0/folders/1ccbHiMyPR9Y-hsiZ-BtQRWAFf7CuYCJp / COPY OUT 1ccbHiMyPR9Y-hsiZ-BtQRWAFf7CuYCJp.
 				   PASTE INTO ***FRONT*** OF THE LIST (ie. var url) BELOW
 				*/
-				var url = [	"1ccbHiMyPR9Y-hsiZ-BtQRWAFf7CuYCJp", 
+				var url = [	"1EWu4MrNTHtDTC7U98imV2n6UQlyZZa6b",
+						"1ccbHiMyPR9Y-hsiZ-BtQRWAFf7CuYCJp", 
 						"1hXld2MLnDNDAY-NG4GOXsL2DS-31Zl32",
 						"0Bwd-OADPSHINQ3lpZ2tSeFllUkE",
 						"0B1Ycvr2lY3mjNUQyOU5jQm5WZ28",
@@ -54,7 +55,7 @@ get_header(); ?>
 				
 				var u = document.createElement('u');
 				var b = document.createElement('b');
-				b.innerHTML = ordinal_suffix_of(25-i)+" Exco"
+				b.innerHTML = ordinal_suffix_of(26-i)+" Exco"
 				u.appendChild(b);
 				h1.appendChild(u);
 				
